@@ -1,0 +1,1 @@
+"use strict";function onclickCategory(){document.getElementById("shownewcategory").classList.add("hidden")}
