@@ -3,33 +3,6 @@
     <div class="flex gap-9">
         <div class="flex gap-4 self-center">
 
-            <script>
-            function autoLoginMbl(token) {
-                const accountElement = document.getElementById('kpaccount2')
-                const trackElementM1 = document.getElementById('kptarckm1')
-                const trackElementM2 = document.getElementById('kptarckm2')
-                if (token) {
-                    if (accountElement) accountElement.style.display = 'flex';
-                    if (trackElementM1) trackElementM1.style.display = 'none';
-                    if (trackElementM2) trackElementM2.style.display = 'block';
-                } else {
-                    if (accountElement) accountElement.style.display = 'none';
-                    if (trackElementM1) trackElementM1.style.display = 'block';
-                    if (trackElementM2) trackElementM2.style.display = 'none';
-                }
-            }
-            window.addEventListener('user-loggedin', function(event) {
-                const {
-                    token
-                } = event?.detail;
-                autoLoginMbl(token);
-            });
-            document.addEventListener('DOMContentLoaded', function() {
-                var userToken = localStorage.getItem('KWIKSESSIONTOKEN');
-                autoLoginMbl(userToken);
-            });
-            </script>
-
             <header-drawer data-breakpoint="tablet">
 
                 <details id="Details-menu-drawer-container"
@@ -507,8 +480,6 @@
 
                                         <ul class=" blue-box-shadow text-neutral-700 font-[ibmMedium] text-xs uppercase p-0"
                                             id="mobile-other-links">
-
-
                                             <li class="py-4 px-2  flex justify-center gap-1 items-center border-b-[0.5px] border-neutral-100"
                                                 onclick="gaClickEvent('Return_Exchange_Click', { route: 'Mobile_Hamburger'});">
                                                 <a onclick="handleShopifyLogin(event,'/account')" id="kptarckm2">TRACK
@@ -530,36 +501,6 @@
                                                         height=24 width=24 loading="lazy" /></a>
                                             </li>
                                         </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                         <div id="kpaccount2"
                                             class="flex mx-0.5 px-4 py-3 lg:hidden text-[#FF6062] text-[14px] font-[soraSemiBold] justify-center items-center bg-[#FFF] rounded-[8px] border-[0.5px] border-solid border-[#FF6062] shadow-[2px_2px_0px_0px_#FFA2A3]"
                                             id="logout-button-mobile"
@@ -569,8 +510,6 @@
 
                                     </div>
                                     <div class="pb-8 lg:pb-0">
-
-
                                         <div class="marquee-container-wrapper overflow-hidden" data-ga-view-custom
                                             data-ga-view-info-custom="PRODUCT_MARQUEE_TEXT_View"
                                             id="header-drawer-marquee">
@@ -611,9 +550,6 @@
                                             </div>
                                         </div>
 
-
-
-
                                     </div>
                                 </nav>
                             </div>
@@ -623,14 +559,14 @@
 
                 </details>
             </header-drawer>
-            <a href="../index.php"
+            <a href="index.php"
                 onclick="gaClickEvent('collection_TopNav_Click',{section_name:'Header',element_name:'Logo_Click',redirect_url:'/'})"
                 class="header__heading-link link link--text focus-inset">
                 <div class="header__heading-logo-wrapper">
 
                     <img src="cdn/shop/logo/logo-ff.png" alt="brand-logo"
                         width="120" height="28.085106382978726" loading="eager"
-                        class="header__heading-logo motion-reduce" >
+                        class="header__heading-logo motion-reduce">
                 </div>
             </a>
         </div>
@@ -673,8 +609,6 @@
                         gym vest
                     </a>
 
-
-
                     <a id="HeaderDrawer--plain-hoodies" href="all-product.php"
                         onclick="gaClickEvent('Megamenu_Click',{section_name:'Header',element_name:'PLAIN HOODIES',redirect_url:'/collections/plain-hoodies'})"
                         class="py-4 text-tertiary-600 uppercase text-base font-[ibmBold] menu-drawer__menu-item link link--text list-menu__item focus-inset">
@@ -694,7 +628,6 @@
                             running shorts
                         </a>
 
-
                     </div>
                     <div class="grid-item-links">
                         <div class="text-tertiary-600 uppercase text-base font-[ibmBold] py-4 "> Lower</div><a
@@ -708,7 +641,6 @@
                             class=" text-neutral-700 py-3 text-sm uppercase font-[ibmRegular] menu-drawer__menu-item link link--text list-menu__item focus-inset">
                             track pant
                         </a>
-
 
                     </div>
                     <div class="grid-item-links">
@@ -724,139 +656,16 @@
                             brief supporter
                         </a>
 
-
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-                <div class="flex flex-col w-[30%] gap-6">
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <script>
-                    emptyCartData = {
-                        "href": "/collections/mens-new-arrivals",
-                        "collectionName": "NEW ARRIVALS"
-                    }
-                    </script>
-
-
-
-
-
-
-
-                    <script>
-                    emptyCartData = {
-                        "href": "/collections/mens-new-arrivals",
-                        "collectionName": "NEW ARRIVALS"
-                    }
-                    </script>
-
-
-
-
-
-
-
-                    <script>
-                    emptyCartData = {
-                        "href": "/collections/mens-new-arrivals",
-                        "collectionName": "NEW ARRIVALS"
-                    }
-                    </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 </div>
             </div>
-           
+
         </li>
 
 
 
         <ul class="megamenu-links-wrapper hidden lg:flex lg:items-center desktop-menu-conatiner  gap-5">
-
-
 
             <li onmouseenter='gaClickEvent("Megamenu_Click",{section_name:"Header",rank:"2",element_name:"Oversized T-Shirts "})'
                 class="desktop-menu flex w-max cursor-pointer items-center hover:border-b-2 hover:border-red-500 dropdown uppercase py-8 text-neutral-700 text-xs font-[soraSemiBold]">
@@ -871,131 +680,14 @@
                             Oversized Printed T-Shirts
                         </a>
 
-
                         <a id="HeaderDrawer--oversized-plain-t-shirts" href="all-product.php"
                             onclick="gaClickEvent('Megamenu_Click',{section_name:'Header',element_name:'Oversized Plain T-Shirts',redirect_url:'https://veirdo.in/collections/solid-oversized-fit-t-shirts'})"
                             class="py-4 text-tertiary-600 uppercase text-base font-[ibmBold] menu-drawer__menu-item link link--text list-menu__item focus-inset">
                             Oversized Plain T-Shirts
                         </a>
-
-
-
-
-
-
-
-
-
-                    </div>
-                    <div class="flex flex-col w-[30%] gap-6">
-
-
-
-
-
-
-
-
-
-
-
-                        <script>
-                        emptyCartData = {
-                            "href": "/collections/mens-new-arrivals",
-                            "collectionName": "NEW ARRIVALS"
-                        }
-                        </script>
-
-
-
-
-
-
-
-                        <script>
-                        emptyCartData = {
-                            "href": "/collections/mens-new-arrivals",
-                            "collectionName": "NEW ARRIVALS"
-                        }
-                        </script>
-
-
-
-
-
-
-
-                        <script>
-                        emptyCartData = {
-                            "href": "/collections/mens-new-arrivals",
-                            "collectionName": "NEW ARRIVALS"
-                        }
-                        </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     </div>
                 </div>
             </li>
-
-
-
-
-
-
-
-
-
 
             <li onmouseenter='gaClickEvent("Megamenu_Click",{section_name:"Header",rank:"5",element_name:"TOP WEAR"})'
                 class="desktop-menu flex w-max cursor-pointer items-center hover:border-b-2 hover:border-red-500 dropdown uppercase py-8 text-neutral-700 text-xs font-[soraSemiBold]">
@@ -1038,20 +730,17 @@
 
                         </div>
 
-
                         <a id="HeaderDrawer--plain-hoodies" href="all-product.php"
                             onclick="gaClickEvent('Megamenu_Click',{section_name:'Header',element_name:'PLAIN HOODIES',redirect_url:'/collections/plain-hoodies'})"
                             class="py-4 text-tertiary-600 uppercase text-base font-[ibmBold] menu-drawer__menu-item link link--text list-menu__item focus-inset">
                             PLAIN HOODIES
                         </a>
 
-
                         <a id="HeaderDrawer--full-sleeve-t-shirts" href="all-product.php"
                             onclick="gaClickEvent('Megamenu_Click',{section_name:'Header',element_name:'Full Sleeve T-Shirts',redirect_url:'/collections/full-sleeve-t-shirts-for-mens'})"
                             class="py-4 text-tertiary-600 uppercase text-base font-[ibmBold] menu-drawer__menu-item link link--text list-menu__item focus-inset">
                             Full Sleeve T-Shirts
                         </a>
-
 
                         <a id="HeaderDrawer--winter-co-ord-set" href="all-product.php"
                             onclick="gaClickEvent('Megamenu_Click',{section_name:'Header',element_name:'WINTER CO-ORD SET',redirect_url:'/collections/co-ord-sets'})"
@@ -1116,121 +805,18 @@
                             Vest
                         </a>
 
-
-
-                    </div>
-                    <div class="flex flex-col w-[30%] gap-6">
-
-
-
-
-
-
-
-
-
-
-
-                        <script>
-                        emptyCartData = {
-                            "href": "/collections/mens-new-arrivals",
-                            "collectionName": "NEW ARRIVALS"
-                        }
-                        </script>
-
-
-
-
-
-
-
-                        <script>
-                        emptyCartData = {
-                            "href": "/collections/mens-new-arrivals",
-                            "collectionName": "NEW ARRIVALS"
-                        }
-                        </script>
-
-
-
-
-
-
-
-                        <script>
-                        emptyCartData = {
-                            "href": "/collections/mens-new-arrivals",
-                            "collectionName": "NEW ARRIVALS"
-                        }
-                        </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     </div>
                 </div>
             </li>
 
 
-              <a href="all-product.php">
-                
-            <li onmouseenter='gaClickEvent("Megamenu_Click",{section_name:"Header",rank:"6",element_name:"BOTTOM WEAR"})'
-                class="desktop-menu flex w-max cursor-pointer items-center hover:border-b-2 hover:border-red-500 dropdown uppercase py-8 text-neutral-700 text-xs font-[soraSemiBold]">
-                BOTTOM WEAR
+            <a href="all-product.php">
 
-            </li>
-
-              </a>
-
+                <li onmouseenter='gaClickEvent("Megamenu_Click",{section_name:"Header",rank:"6",element_name:"BOTTOM WEAR"})'
+                    class="desktop-menu flex w-max cursor-pointer items-center hover:border-b-2 hover:border-red-500 dropdown uppercase py-8 text-neutral-700 text-xs font-[soraSemiBold]">
+                    BOTTOM WEAR
+                </li>
+            </a>
 
             <a href="all-product.php"
                 onclick="gaClickEvent('Megamenu_Click',{section_name:'Header',element_name:'Hoodies &amp; Sweatshirts',redirect_url:'https://veirdo.in/collections/hoodies-sweatshirts'})">
@@ -1239,19 +825,10 @@
                     Hoodies & Sweatshirts
                 </li>
             </a>
-
-
-
-
-
-
-
-
         </ul>
     </div>
 
     <div class="mega-menu-right-wrapper flex gap-4 justify-center items-center">
-
 
         <div class=" min-w-[320px] search-modal__content hidden lg:block">
             <predictive-search class="search-modal__form relative w-full" data-loading-text="Loading...">
@@ -1332,14 +909,10 @@
                     </svg>
                 </a>
 
-
-
                 <div
                     class="absolute flex flex-col w-[15%] right-[2%] top-full rounded-xl z-[9999] profile-menu opacity-0 invisible bg-white account-menu-shadow p-4">
                     <ul
                         class="flex flex-col w-full px-0 py-0 text-neutral-700 font-[ibmMedium] rounded-2xl text-sm uppercase divide-y-[0.5px] divide-[#C9CBCC]">
-
-
                         <a class="px-4 py-5" href="javascript:void(0);" onclick="handleShopifyLogin(event,'/account')"
                             id="kpaccount">
                             <li class="text-left">My Account</li>
@@ -1374,36 +947,7 @@
                         class="header-desktop-logout-btn text-[#FF6062] font-[soraSemiBold] text-sm flex items-center justify-center p-4 rounded-lg border-[0.5px] border-[#FF6062] bg-white shadow-[2px_2px_0px_0px_#FFA2A3]">
                         LOGOUT
                     </button>
-
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
 
 
@@ -1543,3 +1087,4 @@
         </div>
     </div>
 </div>
+

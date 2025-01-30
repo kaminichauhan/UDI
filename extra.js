@@ -257,3 +257,61 @@ domReady(function() {
       }
       if (checkContainerLoading())
         loadScript(window.flitsThemeAppExtensionObjects.flitsGetStoreFrontContainerUrl());
+
+
+//       cart section on and off
+
+      domReady(function() {
+        function openCartDrawer() {
+            executeCartReloadFunction();
+            //pincode serviceability
+            /*if("pincode" in localStorage){
+              $jq(`#pincode_input_cart`).val(localStorage.getItem("pincode")); 
+              pincodeApi("cart");
+            }*/
+            $jq('.slider').removeClass('hidden-block').addClass('show-cart-slider');
+            hideWhatsAppIcon();
+            disableScroll();
+            savingsLottieInit();
+            // getRecom();
+            const cartPayload = $jq('[data-ga-view-quick]').attr('data-ga-view-payload-quick');
+            executeABEvents();
+            gaClickEvent('Cart_Halfcard_Open', {
+                src: 'Cart_Icon',
+                cart_info: cartPayload
+            });
+        }
+
+        function closeCartDrawer(closeSrc) {
+            $jq('.slider').addClass('hide-cart-slider').removeClass('show-cart-slider');
+            setTimeout(function() {
+                $jq('.slider').removeClass('hide-cart-slider').addClass('hidden-block');
+            }, 300);
+            enableScroll();
+            savingsLottieClose();
+            showWhatsAppIcon();
+            const cartPayload = $jq('[data-ga-view-quick]').attr('data-ga-view-payload-quick');
+            gaClickEvent('Cart_Halfcard_Close', {
+                src: closeSrc,
+                cart_info: cartPayload
+            });
+        }
+        $jq('body').on('click', '.cart-icon-bubble, .go-to-cart', function(e) {
+            e.preventDefault();
+            openCartDrawer();
+            trackGA4CartViewEvent();
+            $jq('.cart-recently-viewed').slick('setPosition');
+        });
+
+        $jq('body').on('click', '.icon-close-drawer', function(e) {
+            closeCartDrawer('Cross_Icon_Close');
+        });
+
+        $jq('body').on('mouseup', '.slider .slider__empty', function(e) {
+            let cartDrawerContainer = $jq('.slider .slider__container');
+            if (!cartDrawerContainer.is(e.target) && cartDrawerContainer.has(e.target).length ===
+                0) {
+                closeCartDrawer('Out_Tap_Close');
+            }
+        });
+    });

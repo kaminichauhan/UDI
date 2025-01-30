@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en" class="no-js">
 
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-
 <head>
     <link href="cdn/shop/t/64/assets/fontae4b.css?v=50157125298610985211704803541" rel="stylesheet" type="text/css"
         media="all" />
@@ -98,7 +95,7 @@
 
 
     <script>
-    window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');
+        window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');
     </script>
     <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/19827331/digital_wallets/dialog">
     <link rel="alternate" type="application/json+oembed" href="always-lonely-at-the-top-black-oversized-tshirt.oembed">
@@ -145,14 +142,10 @@
         </symbol>
     </svg>
 
-    <section id="shopify-section-cart-drawer" class="shopify-section">
 
-
-
-    </section>
 
     <!----------header-->
-    <?php include './inc/navbar.php';?>
+    <?php include './inc/navbar.php'; ?>
 
 
     <div class="slider hidden-block flex fixed w-full top-0 right-0 bottom-0 bg-gray-600/25 z-[100]">
@@ -223,50 +216,6 @@
         </div>
     </div>
 
-    <script>
-    domReady(function() {
-        productCarousel("carousel-list-slider", true, 1, 1, 1, 1, 0, false, false, 0, true, true, false, '',
-            5 ? 5000 : 5000);
-
-        const announcementBar = document.querySelector('#announcement-bar');
-        const arrowPrev = announcementBar.querySelector('.slick-prev');
-        const arrowNext = announcementBar.querySelector('.slick-next');
-        arrowPrev.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" class="size-6">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-    </svg>
-    `;
-        arrowNext.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" class="size-6">
-      <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-    </svg>
-    `;
-    });
-    </script>
-
-
-    <div id="logout_popup"
-        class="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-[#141A38]/50 bg-opacity-70 z-[999] invisible"
-        onclick="handleOpenCloseModal(event,'logout_popup','logout_transition','')">
-        <div id="logout_transition"
-            class="flex flex-col bg-white rounded-[8px] p-4 gap-5 text-[14px] opacity-0 transition-all duration-500 ease-in-out translate-y-full lg:-translate-y-[10%]">
-            <div class="flex flex-col items-start gap-4">
-                <label class="flex text-[#666875] font-[ibmMedium]">Are you sure you want to logout?</label>
-            </div>
-            <div class="flex flex-row w-full lg:gap-1 gap-2 lg:justify-evenly justify-start font-[soraSemiBold]">
-                <a class="flex w-[136px] h-10 cursor-pointer justify-center rounded-[8px] px-4 py-3 items-center border-[0.5px] border-[#74797D] border-solid shadow-[2px_2px_0px_0px_#EAEAE9] text-[#222527]"
-                    onclick="handleOpenCloseModal('','logout_popup','logout_transition',''); gaClickEvent('Logout_Modal_Cancel_Click')"
-                    type="reset">
-                    CANCEL
-                </a>
-                <a href="../index.html" data-section-name="my-account-navigation"
-                    class="flex w-[136px] h-10 justify-center items-center rounded-[8px] px-4 py-3 gap-2 text-[#FF6062] border-[0.5px] border-solid border-[#FF6062] shadow-[2px_2px_0px_0px_#FFA2A3] handle-login"
-                    onclick="handleOpenCloseModal('','logout_popup','logout_transition',''); gaClickEvent('Logout_Modal_Logout_Click')">
-                    LOGOUT
-                </a>
-            </div>
-        </div>
-    </div>
 
     </div>
 
@@ -279,9 +228,9 @@
         <link href="cdn/shop/t/64/assets/mini-cart-drawer.min1f71.css?v=86613100141728982041704692040" rel="stylesheet"
             type="text/css" media="all" />
         <style>
-        .hidden-block {
-            display: none !important;
-        }
+            .hidden-block {
+                display: none !important;
+            }
         </style>
 
 
@@ -308,28 +257,28 @@
                             </div>
 
                             <script>
-                            let objectCart = {
-                                "note": null,
-                                "attributes": {},
-                                "original_total_price": 0,
-                                "total_price": 0,
-                                "total_discount": 0,
-                                "total_weight": 0.0,
-                                "item_count": 0,
-                                "items": [],
-                                "requires_shipping": false,
-                                "currency": "INR",
-                                "items_subtotal_price": 0,
-                                "cart_level_discount_applications": [],
-                                "checkout_charge_amount": 0
-                            };
+                                let objectCart = {
+                                    "note": null,
+                                    "attributes": {},
+                                    "original_total_price": 0,
+                                    "total_price": 0,
+                                    "total_discount": 0,
+                                    "total_weight": 0.0,
+                                    "item_count": 0,
+                                    "items": [],
+                                    "requires_shipping": false,
+                                    "currency": "INR",
+                                    "items_subtotal_price": 0,
+                                    "cart_level_discount_applications": [],
+                                    "checkout_charge_amount": 0
+                                };
                             </script>
                         </div>
                         <div class="overflow-y-auto h-full">
 
                             <div class="flex flex-col justify-between h-[80vh] lg:h-[70vh] gap-12">
                                 <script>
-                                let emptyCartData;
+                                    let emptyCartData;
                                 </script>
                                 <div id="empty-cart-items" data-id="empty-cart-drawer" class="h-full ">
                                     <div class="js-contents h-full flex w-full justify-center ">
@@ -370,162 +319,14 @@
                                                 </div>
                                             </div>
                                         </section>
-
                                     </div>
                                 </div>
-
-                                <script>
-                                const temp = "product"
-                                let cartProductData = {};
-                                let productTagValueCart;
-
-                                function setRecentlyViewedProductsCart() {
-                                    cartProductData = {
-                                        productId: `6931091226679`,
-                                        productTitle: `ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt`,
-                                        productHandle: ` always-lonely-at-the-top-black-oversized-tshirt`,
-                                        productImg: `//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533`,
-                                        imgWidth: `980`,
-                                        imgHeight: `1257`,
-                                        productPrice: `₹599`,
-                                        productOriginalPrice: `₹1,199`,
-                                        productDiscount: `50`,
-                                        productUrl: `/products/always-lonely-at-the-top-black-oversized-tshirt`,
-                                        productImageAltText: `ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt`,
-                                        productRating: `5.0`,
-                                        productReviewCount: `5`,
-                                        productMetafields: `eyJiZXN0X29mZmVyIjp7ImFtb3VudCI6IjM2Ni4wIiwiY3VycmVuY3lfY29kZSI6IklOUiJ9LCJjbG9zdXJlIjoiTm8gQ2xvc3VyZSIsImNvbG9yIjoiQmxhY2siLCJkN19vcmRlcl9xdWFudGl0eSI6NywiZmFicmljIjoiMTAwJSBDb3R0b24iLCJmYWJyaWNfdHlwZSI6IlNpbmdsZSBKZXJzZXkgS25pdCIsImZpdCI6Ik92ZXJzaXplZCBGaXQiLCJnZW5kZXIiOiJNZW4iLCJpc19iZXN0c2VsbGVyIjp0cnVlLCJsZW5ndGgiOiJSZWd1bGFyIiwibmVjayI6IlJvdW5kIiwicGF0dGVybiI6IlB1ZmYgUHJpbnQiLCJwYXR0ZXJuX2NvdmVyYWdlIjoiQmFjayIsInBhdHRlcm5fdHlwZSI6IkdyYXBoaWMiLCJwcm9kdWN0X2NhdGVnb3J5IjpbIlRvcHdlYXIiXSwicHJvZHVjdF9oaWdobGlnaHRzIjpbImdpZDpcL1wvc2hvcGlmeVwvTWVkaWFJbWFnZVwvMjQ0NTcxNjgxOTE1NDMiLCJnaWQ6XC9cL3Nob3BpZnlcL01lZGlhSW1hZ2VcLzI0NDU3MTY4MjI0MzExIiwiZ2lkOlwvXC9zaG9waWZ5XC9NZWRpYUltYWdlXC8yNDQ1NzE2ODE1ODc3NSJdLCJwcm9kdWN0X29mZmVyIjpbImJ1eV8yX2dldF8xX2ZyZWVffF9yZXB1YmxpY19kYXlfc2FsZSJdLCJwcm9kdWN0X3R5cGUiOiJPdmVyc2l6ZWQgVHNoaXJ0Iiwic2xlZXZlX2xlbmd0aCI6IlNob3J0IFNsZWV2ZSIsInNsZWV2ZV9zdHlsZSI6IlJlZ3VsYXIiLCJ0YWciOiJPdmVyc2l6ZWQifQ==`,
-                                        productVariants: `bnVsbA==`,
-                                        colorVariantList: ``,
-                                    };
-                                    const productListCart = [];
-                                    let jsonRespCart,
-                                        jsonRespArrCart,
-                                        jsonRespArrStrCart;
-                                    const numberOfProductsCart = 9;
-
-                                    if (cartProductData.productId != "") productListCart.push(cartProductData);
-
-                                    const currProductIdCart = cartProductData.productId;
-                                    const productDataStringCart = JSON.stringify(productListCart);
-                                    const localDataCart = localStorage.getItem("recentlyViewedProduct");
-
-                                    if (localDataCart === null) {
-                                        localStorage.setItem("recentlyViewedProduct", productDataStringCart);
-                                    } else if (localDataCart) {
-                                        const oldProductDataCart = localStorage.getItem("recentlyViewedProduct");
-                                        const countProductDataCart = (oldProductDataCart.match(/productTitle/g) || [])
-                                            .length;
-                                        const sameProductCart = oldProductDataCart.includes(currProductIdCart);
-                                        if (countProductDataCart < numberOfProductsCart && !sameProductCart) {
-                                            jsonRespCart = JSON.parse(oldProductDataCart);
-                                            jsonRespArrCart = jsonRespCart.concat(productListCart);
-                                            jsonRespArrStrCart = JSON.stringify(jsonRespArrCart);
-                                            localStorage.setItem("recentlyViewedProduct", jsonRespArrStrCart);
-                                        } else if (countProductDataCart >= numberOfProductsCart && !sameProductCart) {
-                                            jsonRespCart = JSON.parse(oldProductData);
-                                            jsonRespCart.shift();
-                                            jsonRespArrCart = jsonResp.concat(productListCart);
-                                            jsonRespArrCart = JSON.stringify(jsonRespArrCart);
-                                            localStorage.setItem("recentlyViewedProduct", jsonRespArrCart);
-                                        }
-                                    }
-                                }
-
-                                setRecentlyViewedProductsCart();
-
-                                const cartLocalViewed = localStorage.recentlyViewedProduct;
-
-                                document.addEventListener("DOMContentLoaded", function(event) {
-                                    getRecentlyViewedProductsCart();
-                                    executeABEvents();
-                                });
-
-                                function cartRecentClick(id) {
-                                    let recentElem = document.getElementById(id);
-                                    let click_stream_parameter = {
-                                        styleId: id,
-                                        styleName: recentElem.dataset.product_title
-                                    }
-
-                                    payload = {
-                                        click_stream_parameter: JSON.stringify(click_stream_parameter)
-                                    }
-
-                                    gaClickEvent('Cart_Recent_Click', payload);
-                                }
-                                </script>
-
                             </div>
-
                         </div>
-
-
-
-
-
                     </div>
                 </div>
             </div>
         </div>
-
-        <script>
-        domReady(function() {
-            function openCartDrawer() {
-                executeCartReloadFunction();
-                //pincode serviceability
-                /*if("pincode" in localStorage){
-                  $jq(`#pincode_input_cart`).val(localStorage.getItem("pincode")); 
-                  pincodeApi("cart");
-                }*/
-                $jq('.slider').removeClass('hidden-block').addClass('show-cart-slider');
-                hideWhatsAppIcon();
-                disableScroll();
-                savingsLottieInit();
-                // getRecom();
-                const cartPayload = $jq('[data-ga-view-quick]').attr('data-ga-view-payload-quick');
-                executeABEvents();
-                gaClickEvent('Cart_Halfcard_Open', {
-                    src: 'Cart_Icon',
-                    cart_info: cartPayload
-                });
-            }
-
-            function closeCartDrawer(closeSrc) {
-                $jq('.slider').addClass('hide-cart-slider').removeClass('show-cart-slider');
-                setTimeout(function() {
-                    $jq('.slider').removeClass('hide-cart-slider').addClass('hidden-block');
-                }, 300);
-                enableScroll();
-                savingsLottieClose();
-                showWhatsAppIcon();
-                const cartPayload = $jq('[data-ga-view-quick]').attr('data-ga-view-payload-quick');
-                gaClickEvent('Cart_Halfcard_Close', {
-                    src: closeSrc,
-                    cart_info: cartPayload
-                });
-            }
-            $jq('body').on('click', '.cart-icon-bubble, .go-to-cart', function(e) {
-                e.preventDefault();
-                openCartDrawer();
-                trackGA4CartViewEvent();
-                $jq('.cart-recently-viewed').slick('setPosition');
-            });
-
-            $jq('body').on('click', '.icon-close-drawer', function(e) {
-                closeCartDrawer('Cross_Icon_Close');
-            });
-
-            $jq('body').on('mouseup', '.slider .slider__empty', function(e) {
-                let cartDrawerContainer = $jq('.slider .slider__container');
-                if (!cartDrawerContainer.is(e.target) && cartDrawerContainer.has(e.target).length ===
-                    0) {
-                    closeCartDrawer('Out_Tap_Close');
-                }
-            });
-        });
-        </script>
-
     </section>
 
 
@@ -544,6 +345,7 @@
         type="text/css" media="all" />
     <link href="cdn/shop/t/64/assets/product-card.mine3b7.css?v=94156981987166474241726569589" rel="stylesheet"
         type="text/css" media="all" />
+        <!-- main content -->
     <div class="theme-content fix-content-width" id="">
         <div id="shopify-section-template--14876768305207__main" class="shopify-section">
             <link href="cdn/shop/t/64/assets/main-product.minf1dc.css?v=92510182905843862231729072615" rel="stylesheet"
@@ -555,21 +357,21 @@
 
             <div class="breadcrumbs-desktop hidden lg:block md:px-40 mt-[20px]">
                 <style data-shopify>
-                .breadcrumb a {
-                    color: #131814;
-                    font-family: ibmMedium;
-                    font-size: 14px;
-                }
+                    .breadcrumb a {
+                        color: #131814;
+                        font-family: ibmMedium;
+                        font-size: 14px;
+                    }
 
-                .breadcrumb a:hover {
-                    text-decoration: underline;
-                }
+                    .breadcrumb a:hover {
+                        text-decoration: underline;
+                    }
 
-                .breadcrumb span {
-                    color: #afb2b4;
-                    font-size: 14px;
-                    font-family: ibmMedium;
-                }
+                    .breadcrumb span {
+                        color: #afb2b4;
+                        font-size: 14px;
+                        font-family: ibmMedium;
+                    }
                 </style>
                 <nav class="breadcrumb capitalize flex p-4 lg:p-0 gap-1 flex-wrap" role="navigation"
                     aria-label="breadcrumbs">
@@ -578,6 +380,7 @@
                     <span>Product</span>
                 </nav>
             </div>
+
             <main class="flex flex-col md:grid md:grid-cols-10 md:gap-10 md:py-6 md:px-40">
                 <div id="product-image-carousel-wrapper" class="h-full w-full col-span-6 relative">
 
@@ -703,66 +506,66 @@
                     </div>
 
                     <script>
-                    domReady(function() {
-                        $jq('.img_producto_container')
-                            // tile mouse actions
-                            .on('mouseover', function() {
-                                $jq(this)
-                                    .children('.img_producto')
-                                    .css({
-                                        transform: 'scale(' + $jq(this).attr('data-scale') + ')'
+                        domReady(function() {
+                            $jq('.img_producto_container')
+                                // tile mouse actions
+                                .on('mouseover', function() {
+                                    $jq(this)
+                                        .children('.img_producto')
+                                        .css({
+                                            transform: 'scale(' + $jq(this).attr('data-scale') + ')'
+                                        });
+                                })
+                                .on('mouseout', function() {
+                                    $jq(this).children('.img_producto').css({
+                                        transform: 'scale(1)'
                                     });
-                            })
-                            .on('mouseout', function() {
-                                $jq(this).children('.img_producto').css({
-                                    transform: 'scale(1)'
+                                })
+                                .on('mousemove', function(e) {
+                                    $jq(this)
+                                        .children('.img_producto')
+                                        .css({
+                                            'transform-origin': ((e.pageX - $jq(this).offset().left) / $jq(
+                                                    this).width()) * 100 +
+                                                '% ' +
+                                                ((e.pageY - $jq(this).offset().top) / $jq(this).height()) *
+                                                100 +
+                                                '%',
+                                        });
                                 });
-                            })
-                            .on('mousemove', function(e) {
-                                $jq(this)
-                                    .children('.img_producto')
-                                    .css({
-                                        'transform-origin': ((e.pageX - $jq(this).offset().left) / $jq(
-                                                this).width()) * 100 +
-                                            '% ' +
-                                            ((e.pageY - $jq(this).offset().top) / $jq(this).height()) *
-                                            100 +
-                                            '%',
-                                    });
-                            });
-                    });
+                        });
                     </script>
 
 
                     <style>
-                    .outer-grid {
-                        display: none;
-                    }
-
-                    .img_producto_container {
-                        position: relative;
-                        overflow: hidden;
-                        cursor: zoom-in;
-                    }
-
-                    .img_producto {
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        background-size: cover;
-                        transition: transform 0.5s ease-out;
-                    }
-
-                    @media screen and (min-width: 768px) {
                         .outer-grid {
-                            display: grid;
-                            grid-template-columns: 50% 50%;
+                            display: none;
                         }
-                    }
+
+                        .img_producto_container {
+                            position: relative;
+                            overflow: hidden;
+                            cursor: zoom-in;
+                        }
+
+                        .img_producto {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            transition: transform 0.5s ease-out;
+                        }
+
+                        @media screen and (min-width: 768px) {
+                            .outer-grid {
+                                display: grid;
+                                grid-template-columns: 50% 50%;
+                            }
+                        }
                     </style>
                     <div class="">
                         <div class="outer-grid pdp-main-image gap-1">
@@ -1203,7 +1006,7 @@
                         </div>
                     </div>
                     <script type="text/javascript">
-                    renderAvailableOffers('always-lonely-at-the-top-black-oversized-tshirt');
+                        renderAvailableOffers('always-lonely-at-the-top-black-oversized-tshirt');
                     </script>
 
 
@@ -1233,112 +1036,112 @@
 
 
                     <script>
-                    const _first_selected_variant = {
-                        "id": 40581803999287,
-                        "title": "S",
-                        "option1": "S",
-                        "option2": null,
-                        "option3": null,
-                        "sku": "OS_V_ITSALWYLNLY_BK_S",
-                        "requires_shipping": true,
-                        "taxable": true,
-                        "featured_image": null,
-                        "available": true,
-                        "name": "ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt - S",
-                        "public_title": "S",
-                        "options": ["S"],
-                        "price": 59900,
-                        "weight": 250,
-                        "compare_at_price": 119900,
-                        "inventory_quantity": 134,
-                        "inventory_management": "shopify",
-                        "inventory_policy": "deny",
-                        "barcode": null,
-                        "requires_selling_plan": false,
-                        "selling_plan_allocations": []
-                    }
-                    const _productOptionsWithValues = [{
-                        "name": "Size",
-                        "position": 1,
-                        "values": ["S", "M", "L", "XL", "XXL"]
-                    }]
-                    const _productMedia = [{
-                        "alt": null,
-                        "id": 24588792037431,
-                        "position": 1,
-                        "preview_image": {
+                        const _first_selected_variant = {
+                            "id": 40581803999287,
+                            "title": "S",
+                            "option1": "S",
+                            "option2": null,
+                            "option3": null,
+                            "sku": "OS_V_ITSALWYLNLY_BK_S",
+                            "requires_shipping": true,
+                            "taxable": true,
+                            "featured_image": null,
+                            "available": true,
+                            "name": "ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt - S",
+                            "public_title": "S",
+                            "options": ["S"],
+                            "price": 59900,
+                            "weight": 250,
+                            "compare_at_price": 119900,
+                            "inventory_quantity": 134,
+                            "inventory_management": "shopify",
+                            "inventory_policy": "deny",
+                            "barcode": null,
+                            "requires_selling_plan": false,
+                            "selling_plan_allocations": []
+                        }
+                        const _productOptionsWithValues = [{
+                            "name": "Size",
+                            "position": 1,
+                            "values": ["S", "M", "L", "XL", "XXL"]
+                        }]
+                        const _productMedia = [{
+                            "alt": null,
+                            "id": 24588792037431,
+                            "position": 1,
+                            "preview_image": {
+                                "aspect_ratio": 0.78,
+                                "height": 1257,
+                                "width": 980,
+                                "src": "\/\/veirdo.in\/cdn\/shop\/files\/01_02.jpg?v=1730189513"
+                            },
                             "aspect_ratio": 0.78,
                             "height": 1257,
-                            "width": 980,
-                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/01_02.jpg?v=1730189513"
-                        },
-                        "aspect_ratio": 0.78,
-                        "height": 1257,
-                        "media_type": "image",
-                        "src": "\/\/veirdo.in\/cdn\/shop\/files\/01_02.jpg?v=1730189513",
-                        "width": 980
-                    }, {
-                        "alt": null,
-                        "id": 23870093230135,
-                        "position": 2,
-                        "preview_image": {
+                            "media_type": "image",
+                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/01_02.jpg?v=1730189513",
+                            "width": 980
+                        }, {
+                            "alt": null,
+                            "id": 23870093230135,
+                            "position": 2,
+                            "preview_image": {
+                                "aspect_ratio": 0.75,
+                                "height": 1440,
+                                "width": 1080,
+                                "src": "\/\/veirdo.in\/cdn\/shop\/files\/20_2.jpg?v=1715012785"
+                            },
                             "aspect_ratio": 0.75,
                             "height": 1440,
-                            "width": 1080,
-                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/20_2.jpg?v=1715012785"
-                        },
-                        "aspect_ratio": 0.75,
-                        "height": 1440,
-                        "media_type": "image",
-                        "src": "\/\/veirdo.in\/cdn\/shop\/files\/20_2.jpg?v=1715012785",
-                        "width": 1080
-                    }, {
-                        "alt": null,
-                        "id": 24622210908215,
-                        "position": 3,
-                        "preview_image": {
+                            "media_type": "image",
+                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/20_2.jpg?v=1715012785",
+                            "width": 1080
+                        }, {
+                            "alt": null,
+                            "id": 24622210908215,
+                            "position": 3,
+                            "preview_image": {
+                                "aspect_ratio": 1.476,
+                                "height": 2728,
+                                "width": 4027,
+                                "src": "\/\/veirdo.in\/cdn\/shop\/files\/ImportedPhoto.751811509.076206.jpg?v=1731157011"
+                            },
                             "aspect_ratio": 1.476,
                             "height": 2728,
-                            "width": 4027,
-                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/ImportedPhoto.751811509.076206.jpg?v=1731157011"
-                        },
-                        "aspect_ratio": 1.476,
-                        "height": 2728,
-                        "media_type": "image",
-                        "src": "\/\/veirdo.in\/cdn\/shop\/files\/ImportedPhoto.751811509.076206.jpg?v=1731157011",
-                        "width": 4027
-                    }, {
-                        "alt": null,
-                        "id": 23423003459639,
-                        "position": 4,
-                        "preview_image": {
+                            "media_type": "image",
+                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/ImportedPhoto.751811509.076206.jpg?v=1731157011",
+                            "width": 4027
+                        }, {
+                            "alt": null,
+                            "id": 23423003459639,
+                            "position": 4,
+                            "preview_image": {
+                                "aspect_ratio": 0.75,
+                                "height": 1600,
+                                "width": 1200,
+                                "src": "\/\/veirdo.in\/cdn\/shop\/files\/01_01.jpg?v=1715012782"
+                            },
                             "aspect_ratio": 0.75,
                             "height": 1600,
-                            "width": 1200,
-                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/01_01.jpg?v=1715012782"
-                        },
-                        "aspect_ratio": 0.75,
-                        "height": 1600,
-                        "media_type": "image",
-                        "src": "\/\/veirdo.in\/cdn\/shop\/files\/01_01.jpg?v=1715012782",
-                        "width": 1200
-                    }, {
-                        "alt": null,
-                        "id": 23423003492407,
-                        "position": 5,
-                        "preview_image": {
+                            "media_type": "image",
+                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/01_01.jpg?v=1715012782",
+                            "width": 1200
+                        }, {
+                            "alt": null,
+                            "id": 23423003492407,
+                            "position": 5,
+                            "preview_image": {
+                                "aspect_ratio": 0.75,
+                                "height": 1600,
+                                "width": 1200,
+                                "src": "\/\/veirdo.in\/cdn\/shop\/files\/474.jpg?v=1715012782"
+                            },
                             "aspect_ratio": 0.75,
                             "height": 1600,
-                            "width": 1200,
-                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/474.jpg?v=1715012782"
-                        },
-                        "aspect_ratio": 0.75,
-                        "height": 1600,
-                        "media_type": "image",
-                        "src": "\/\/veirdo.in\/cdn\/shop\/files\/474.jpg?v=1715012782",
-                        "width": 1200
-                    }]
-                    // Used to push the item view event in ga4
+                            "media_type": "image",
+                            "src": "\/\/veirdo.in\/cdn\/shop\/files\/474.jpg?v=1715012782",
+                            "width": 1200
+                        }]
+                        // Used to push the item view event in ga4
                     </script>
 
                     <div id="flits-product-metadata-judgeme"
@@ -1750,15 +1553,15 @@
 
                                 <div id="description_content" class="pb-4  product-description">
                                     <style data-mce-fragment="1" type="text/css">
-                                    <!--
-                                    td {
-                                        border: 1px solid #ccc;
-                                    }
+                                        <!--
+                                        td {
+                                            border: 1px solid #ccc;
+                                        }
 
-                                    br {
-                                        mso-data-placement: same-cell;
-                                    }
-                                    -->
+                                        br {
+                                            mso-data-placement: same-cell;
+                                        }
+                                        -->
                                     </style>
                                     <div>
                                         <table height="254" style="width: 550px;">
@@ -2019,9 +1822,9 @@
                                             data-average-rating='5.00' data-number-of-reviews='5'
                                             data-number-of-questions='0'>
                                             <style class='jdgm-temp-hiding-style'>
-                                            .jdgm-rev-widg {
-                                                display: none
-                                            }
+                                                .jdgm-rev-widg {
+                                                    display: none
+                                                }
                                             </style>
 
 
@@ -2121,168 +1924,168 @@
 
 
             <style>
-            .brand-story-section {
-                margin-top: 0px;
-                margin-bottom: 0px;
-                margin-right: 0px;
-                margin-left: 0px;
-            }
-
-            @media screen and (min-width:1024px) {
                 .brand-story-section {
                     margin-top: 0px;
                     margin-bottom: 0px;
                     margin-right: 0px;
                     margin-left: 0px;
                 }
-            }
+
+                @media screen and (min-width:1024px) {
+                    .brand-story-section {
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                        margin-left: 0px;
+                    }
+                }
             </style>
 
         </div>
-        <?php include './new-arrival.php';?>
-         
-        <?php include './new-arrival.php';?>
-            <!----footer-->
-    <?php include './inc/footer.php';?>
+        <?php include './new-arrival.php'; ?>
+
+        <?php include './new-arrival.php'; ?>
+        <!----footer-->
+        <?php include './inc/footer.php'; ?>
 
 
-    <button id="BackToTop" class="back-to-top right-2 lg:right-[60px]">
-        <img src="cdn/shop/t/64/assets/icon-back-to-top3c55.svg?v=25966591052180162661706079523" width="40"
-            height="40" alt="back to top" loading="lazy">
-    </button>
+        <button id="BackToTop" class="back-to-top right-2 lg:right-[60px]">
+            <img src="cdn/shop/t/64/assets/icon-back-to-top3c55.svg?v=25966591052180162661706079523" width="40"
+                height="40" alt="back to top" loading="lazy">
+        </button>
 
 
-    <!-- TODO - remove the dependency of jquery for critical rendering -->
-    <script src="../cdn/shop/t/64/assets/hamburger-menu.min06f4.js?v=84340172155576691991733916671" defer></script>
-    <link rel="stylesheet" href="../cdn/shop/t/64/assets/predictive-search.min6c24.css?v=93769007446315028791707132699"
-        media="print" onload="this.media='all'">
+        <!-- TODO - remove the dependency of jquery for critical rendering -->
+        <script src="../cdn/shop/t/64/assets/hamburger-menu.min06f4.js?v=84340172155576691991733916671" defer></script>
+        <link rel="stylesheet" href="../cdn/shop/t/64/assets/predictive-search.min6c24.css?v=93769007446315028791707132699"
+            media="print" onload="this.media='all'">
 
-    <!-- Start of Judge.me Core -->
-    <link rel="dns-prefetch" href="https://cdn.judge.me/">
-
-
-
+        <!-- Start of Judge.me Core -->
+        <link rel="dns-prefetch" href="https://cdn.judge.me/">
 
 
 
-    <script data-cfasync='false' class='jdgm-script'>
-    ! function(e) {
-        window.jdgm = window.jdgm || {}, jdgm.CDN_HOST = "https://cdn.judge.me/",
-            jdgm.docReady = function(d) {
-                (e.attachEvent ? "complete" === e.readyState : "loading" !== e.readyState) ?
-                setTimeout(d, 0): e.addEventListener("DOMContentLoaded", d)
-            }, jdgm.loadCSS = function(d, t, o, s) {
-                !o && jdgm.loadCSS.requestedUrls.indexOf(d) >= 0 || (jdgm.loadCSS.requestedUrls.push(d),
-                    (s = e.createElement("link")).rel = "stylesheet", s.class = "jdgm-stylesheet", s.media =
-                    "nope!",
-                    s.href = d, s.onload = function() {
-                        this.media = "all", t && setTimeout(t)
-                    }, e.body.appendChild(s))
-            },
-            jdgm.loadCSS.requestedUrls = [], jdgm.loadJS = function(e, d) {
-                var t = new XMLHttpRequest;
-                t.onreadystatechange = function() {
-                        4 === t.readyState && (Function(t.response)(), d && d(t.response))
+
+
+
+        <script data-cfasync='false' class='jdgm-script'>
+            ! function(e) {
+                window.jdgm = window.jdgm || {}, jdgm.CDN_HOST = "https://cdn.judge.me/",
+                    jdgm.docReady = function(d) {
+                        (e.attachEvent ? "complete" === e.readyState : "loading" !== e.readyState) ?
+                        setTimeout(d, 0): e.addEventListener("DOMContentLoaded", d)
+                    }, jdgm.loadCSS = function(d, t, o, s) {
+                        !o && jdgm.loadCSS.requestedUrls.indexOf(d) >= 0 || (jdgm.loadCSS.requestedUrls.push(d),
+                            (s = e.createElement("link")).rel = "stylesheet", s.class = "jdgm-stylesheet", s.media =
+                            "nope!",
+                            s.href = d, s.onload = function() {
+                                this.media = "all", t && setTimeout(t)
+                            }, e.body.appendChild(s))
                     },
-                    t.open("GET.html", e), t.send()
-            }, jdgm.docReady((function() {
-                (window.jdgmLoadCSS || e.querySelectorAll(
-                    ".jdgm-widget, .jdgm-all-reviews-page").length > 0) && (jdgmSettings
-                    .widget_load_with_code_splitting ?
-                    parseFloat(jdgmSettings.widget_version) >= 3 ? jdgm.loadCSS(jdgm.CDN_HOST +
-                        "widget_v3/base.css") :
-                    jdgm.loadCSS(jdgm.CDN_HOST + "widget/base.css") : jdgm.loadCSS(jdgm.CDN_HOST +
-                        "shopify_v2.css"),
-                    jdgm.loadJS(jdgm.CDN_HOST + "loader.js"))
-            }))
-    }(document);
-    </script>
+                    jdgm.loadCSS.requestedUrls = [], jdgm.loadJS = function(e, d) {
+                        var t = new XMLHttpRequest;
+                        t.onreadystatechange = function() {
+                                4 === t.readyState && (Function(t.response)(), d && d(t.response))
+                            },
+                            t.open("GET.html", e), t.send()
+                    }, jdgm.docReady((function() {
+                        (window.jdgmLoadCSS || e.querySelectorAll(
+                            ".jdgm-widget, .jdgm-all-reviews-page").length > 0) && (jdgmSettings
+                            .widget_load_with_code_splitting ?
+                            parseFloat(jdgmSettings.widget_version) >= 3 ? jdgm.loadCSS(jdgm.CDN_HOST +
+                                "widget_v3/base.css") :
+                            jdgm.loadCSS(jdgm.CDN_HOST + "widget/base.css") : jdgm.loadCSS(jdgm.CDN_HOST +
+                                "shopify_v2.css"),
+                            jdgm.loadJS(jdgm.CDN_HOST + "loader.js"))
+                    }))
+            }(document);
+        </script>
 
-    <noscript>
-        <link rel="stylesheet" type="text/css" media="all" href="../../cdn.judge.me/shopify_v2.css">
-    </noscript>
-    <!-- End of Judge.me Core -->
+        <noscript>
+            <link rel="stylesheet" type="text/css" media="all" href="../../cdn.judge.me/shopify_v2.css">
+        </noscript>
+        <!-- End of Judge.me Core -->
 
 
 
-    <script>
-    window.shopUrl = '../index.php';
-    window.routes = {
-        cart_add_url: '/cart/add',
-        cart_change_url: '/cart/change',
-        cart_update_url: '/cart/update',
-        cart_url: '/cart',
-        predictive_search_url: '/search/suggest',
-    };
-    </script>
-    <script src="../cdn/shop/t/64/assets/predictive-search.mind3e4.js?v=107557671509637896911707900564" defer="defer">
-    </script>
-    <script>
-    const $jq = jQuery.noConflict();
+        <script>
+            window.shopUrl = '../index.php';
+            window.routes = {
+                cart_add_url: '/cart/add',
+                cart_change_url: '/cart/change',
+                cart_update_url: '/cart/update',
+                cart_url: '/cart',
+                predictive_search_url: '/search/suggest',
+            };
+        </script>
+        <script src="../cdn/shop/t/64/assets/predictive-search.mind3e4.js?v=107557671509637896911707900564" defer="defer">
+        </script>
+        <script>
+            const $jq = jQuery.noConflict();
 
-    /* Start - Image Lazy loading Logic */
-    const lazyImages = document.querySelectorAll('.lazy');
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                const image = entry.target;
-                image.src = image.dataset.src;
-                image.addEventListener('load', () => {
-                    image.classList.add('loaded');
+            /* Start - Image Lazy loading Logic */
+            const lazyImages = document.querySelectorAll('.lazy');
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const image = entry.target;
+                        image.src = image.dataset.src;
+                        image.addEventListener('load', () => {
+                            image.classList.add('loaded');
+                        });
+                        observer.unobserve(image);
+                    }
                 });
-                observer.unobserve(image);
+            });
+            lazyImages.forEach((image) => {
+                observer.observe(image);
+            });
+            /* End - Image Lazy loading Logic */
+            function getTemplate() {
+                const temp = "product";
+                return temp;
             }
-        });
-    });
-    lazyImages.forEach((image) => {
-        observer.observe(image);
-    });
-    /* End - Image Lazy loading Logic */
-    function getTemplate() {
-        const temp = "product";
-        return temp;
-    }
-    const getDeviceType = (width) => {
-        return width >= 1024 ? "desktop" : width >= 768 ? "tablet" : "mobile";
-    };
-    const customer = {
-        name: '',
-        id: ``,
-        email: ``,
-        phone: ``
-    }
-    window.customer = customer;
-    window.brand = {
-        device: {
-            deviceType: getDeviceType(document.body.clientWidth)
-        }
-    }
-    //loading lottie cdn only when there is lottie on page
-    document.addEventListener('DOMContentLoaded', function() {
-        setTimeout(function() {
-            var script = document.createElement('script');
-            script.defer = true;
-            script.src =
-                '../../cdn.shopify.com/s/files/1/0485/2534/4920/files/lottie-player.minc559.js?v=1712587202';
-            document.head.appendChild(script);
-        }, 2000); // Delay of 2 seconds
-        let currentScrollRange = -1;
-        let lastPageUrl = '';
-        window.addEventListener('scroll', () => {
-            const scrollDepth = Math.round((window.scrollY) / (document.querySelector('html.js')
-                .offsetHeight - window.innerHeight) * 100);
-            const scrollRange = Math.round((scrollDepth) / 25);
-            if (lastPageUrl != window.location.href) {
-                lastPageUrl = window.location.href;
-                currentScrollRange = -1;
+            const getDeviceType = (width) => {
+                return width >= 1024 ? "desktop" : width >= 768 ? "tablet" : "mobile";
+            };
+            const customer = {
+                name: '',
+                id: ``,
+                email: ``,
+                phone: ``
             }
-            if (scrollRange != currentScrollRange) {
-                currentScrollRange = scrollRange;
-                gaScrollEvent(scrollRange * 25, window.location.href);
+            window.customer = customer;
+            window.brand = {
+                device: {
+                    deviceType: getDeviceType(document.body.clientWidth)
+                }
             }
-        })
-    });
-    </script>
+            //loading lottie cdn only when there is lottie on page
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(function() {
+                    var script = document.createElement('script');
+                    script.defer = true;
+                    script.src =
+                        '../../cdn.shopify.com/s/files/1/0485/2534/4920/files/lottie-player.minc559.js?v=1712587202';
+                    document.head.appendChild(script);
+                }, 2000); // Delay of 2 seconds
+                let currentScrollRange = -1;
+                let lastPageUrl = '';
+                window.addEventListener('scroll', () => {
+                    const scrollDepth = Math.round((window.scrollY) / (document.querySelector('html.js')
+                        .offsetHeight - window.innerHeight) * 100);
+                    const scrollRange = Math.round((scrollDepth) / 25);
+                    if (lastPageUrl != window.location.href) {
+                        lastPageUrl = window.location.href;
+                        currentScrollRange = -1;
+                    }
+                    if (scrollRange != currentScrollRange) {
+                        currentScrollRange = scrollRange;
+                        gaScrollEvent(scrollRange * 25, window.location.href);
+                    }
+                })
+            });
+        </script>
 
     </div>
     <div id="shopify-block-AYzlOTmRyakFvcEJNN__10508887350528622030" class="shopify-block shopify-app-block">
