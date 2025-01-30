@@ -56,8 +56,8 @@
     <meta name="theme-color" content="">
     <meta name="google-site-verification" content="Vcki8KUFgGSkKZlGWNf5tzFar9tqpfDy7jlRHu1Ny8c">
     <meta name="facebook-domain-verification" content="rv983ku8x66uk9n937qkp5387m31g7">
-    <link rel="shortcut icon" type="image/png"
-        href="cdn/shop/files/android-chrome-192x192fee8.png?v=1686564707&amp;width=32">
+    <!-- <link rel="shortcut icon" type="image/png"
+        href="cdn/shop/files/android-chrome-192x192fee8.png?v=1686564707&amp;width=32"> -->
     <title>Product Page</title>
     <meta name="description"
         content="Made of 100% Cotton Neck Type Round Neck Fit Type Oversized Fit Color Black Pattern Puff Print Sleeve Type Half Sleeve Care Instruction Machine washable Available Sizes S,M,L,XL,XXL SKU OS_V_ITSALWYLNLY_BK Country of origin India">
@@ -2139,11 +2139,1345 @@
             </style>
 
         </div>
-        <?php include './new-arrival.php';?>
-         
-        <?php include './new-arrival.php';?>
+
+        <!---Similar Product-->
+        <div id="shopify-section-template--14826244636727__product_listing_n7patd" class="shopify-section">
+  <section data-ga-view-custom data-ga-view-info-custom="index"
+    data-ga-view-payload-custom='{section_name:"1X4 Product Carousal",rank:""}'
+    class="product-listing-section-template--14826244636727__product_listing_n7patd">
+    <div class="">
+      <section>
+        <div class="flex-col">
+
+          <div
+            class="text-title-template--14826244636727__product_listing_n7patd mb-[1rem] lg:mb-[1.25rem] lg:items-center"> SIMILAR PRODUCTS</div>
+
+          <div class="product-listing-slider-template--14826244636727__product_listing_n7patd  slider-container">
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_6_f9f06371-797c-46f5-a60c-044073e8c261f4c0.jpg?v=1733986005"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0000_81528.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_8b5b5.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0000_Look_SHot_39dc1923-477b-4213-ae38-7446b6b0c119907c.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_6_f9f06371-797c-46f5-a60c-044073e8c261f4c0.jpg?v=1733986005"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0000_Look_Shot_62c5312b-5e61-4497-b7c1-181a98f057d98203.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_Lookshot_2a602.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0000_lookshot_da7efcdd-936e-4930-9574-7b70c1e29ee645e5.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_lookshot_f0839f1d-ed9c-4875-aedb-06baca63cd622554.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0001_10_6eb21e2a-47e8-46be-b302-4e15458e9566e2d9.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0001_1274db.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0002_6_44e06c5d-fa77-403f-ba61-152a30f5b0552983.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+    
+  </section>
+
+</div>
+<!---similar product-->
+
+  <!---------Recently viewed------->       
+<div id="shopify-section-template--14826244636727__product_listing_n7patd" class="shopify-section mb-5">
+  <section data-ga-view-custom data-ga-view-info-custom="index"
+    data-ga-view-payload-custom='{section_name:"1X4 Product Carousal",rank:""}'
+    class="product-listing-section-template--14826244636727__product_listing_n7patd">
+    <div class="">
+      <section>
+        <div class="flex-col">
+
+          <div
+            class="text-title-template--14826244636727__product_listing_n7patd mb-[1rem] lg:mb-[1.25rem] lg:items-center"> RECENTLY VIEWED PRODUCTS</div>
+
+          <div class="product-listing-slider-template--14826244636727__product_listing_n7patd  slider-container">
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_6_f9f06371-797c-46f5-a60c-044073e8c261f4c0.jpg?v=1733986005"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0000_81528.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_8b5b5.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0000_Look_SHot_39dc1923-477b-4213-ae38-7446b6b0c119907c.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_6_f9f06371-797c-46f5-a60c-044073e8c261f4c0.jpg?v=1733986005"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0000_Look_Shot_62c5312b-5e61-4497-b7c1-181a98f057d98203.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_Lookshot_2a602.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0000_lookshot_da7efcdd-936e-4930-9574-7b70c1e29ee645e5.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0000_lookshot_f0839f1d-ed9c-4875-aedb-06baca63cd622554.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0001_10_6eb21e2a-47e8-46be-b302-4e15458e9566e2d9.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+            <!-- Product card start -->
+            <div>
+              <section class="product-card-container flex h-full flex-col rounded-xl lg:rounded-2xl border-[0.5px] border-[#c9cbcc] cursor-pointer justify-between">
+                <div class="flex flex-col relative">
+                  <div class="product_link">
+                    <!-- For Mobile View Only -->
+                    <div class="container relative lg:hidden">
+                      <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                        <figure class="w-full flex block">
+                          <img src="cdn/shop/files/01_0001_1274db.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                      </div>
+                      <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
+                        <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                          PUFF PRINT T-SHIRT
+                        </span>
+                      </div>
+                      <div class="color-variant-section absolute right-[0.625rem] bottom-[0.625rem] z-[1]">
+                        <div class="flex items-center h-full">
+                          <div class="flex gap-[3px] h-full">
+                            <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                              <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                              <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                              </div>
+                            </div>
+                            <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                              112
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Greater Than Mobile View Only -->
+                    <div class="container hidden lg:flex relative">
+                      <div class="flex p-1 w-full relative image-container aspect-[2/3]">
+                        <figure class="w-full flex">
+                          <img src="cdn/shop/files/01_0002_6_44e06c5d-fa77-403f-ba61-152a30f5b0552983.jpg"
+                            alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
+                            class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
+                            width="980" height="1257" loading="lazy">
+                        </figure>
+                        <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
+                          <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
+                            PUFF PRINT T-SHIRT
+                          </span>
+                        </div>
+                        <div class="color-variant-section absolute right-[0.625rem] lg:right-[0.75rem] bottom-[0.625rem] lg:bottom-[0.75rem] z-[1]">
+                          <div class="flex items-center h-full">
+                            <div class="flex gap-[3px] h-full">
+                              <div class="flex justify-center items-center lg:mt-0.5 w-6">
+                                <div class="first-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_swanwhite border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                                <div class="second-color-variant-swatch relative -top-[45%] lg:-top-[40%]">
+                                  <span class="bg_color_royal-blue border-[1px] border-[#F2F2F2] w-[14px] h-[14px] lg:w-3.5 lg:h-3.5 rounded-[50%] absolute"></span>
+                                </div>
+                              </div>
+                              <span class="text-[#51575C] text-xs font-[ibmMedium] flex items-center">
+                                112
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <section id="product-info" class="pt-0 lg:pt-3 pb-2 px-2 lg:px-3">
+                      <div class="product-price-name-container flex flex-col gap-[2px]">
+                        <section class="flex gap-1 lg:gap-2 items-baseline flex-wrap">
+                          <span class="font-[ibmSemiBold] text-sm lg:text-base text-[#131814]">₹749</span>
+                          <span class="text-[11px] lg:text-sm font-[ibmMedium] text-[#AFB2B4] line-through">₹1,499</span>
+                          <span class="font-[ibmMedium] text-[10px] lg:text-sm text-[#00B53A] uppercase">50% off</span>
+                        </section>
+                        <h3 class="max-w-prose text-copy w-full overflow-hidden whitespace-nowrap text-ellipsis font-[ibmRegular] text-[#8A8E92] text-xs lg:text-sm">
+                          Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt
+                        </h3>
+                      </div>
+                      <div class="mt-1 mb-1.5">
+                        <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                          <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
+                            width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                          <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="card-add-to-bag-wishlist-container flex border-t-[0.5px] border-t-[#c9cbcc]">
+                  <button class="product-card-add-to-bag cursor-pointer flex p-2 lg:p-4 items-center justify-center flex-1 border-r-[0.5px] border-r-[#c9cbcc]">
+                    <span class="text-[11px] lg:text-sm font-[soraSemiBold] text-[#131814] uppercase">
+                      ADD TO CART
+                    </span>
+                  </button>
+                  <button class="product-card-wishlist flex py-0 px-3 lg:px-4 justify-center items-center self-stretch">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531"
+                      width="20" height="20" alt="wishlist icon">
+                  </button>
+                </div>
+              </section>
+            </div>
+            <!-- Product card End -->
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+    
+  </section>
+
+</div>
+
+<!---Recently product---->
+
             <!----footer-->
     <?php include './inc/footer.php';?>
+    <!----footer---->
 
 
     <button id="BackToTop" class="back-to-top right-2 lg:right-[60px]">

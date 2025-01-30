@@ -45,7 +45,9 @@
 
     <meta name="theme-color" content="">
     <meta name="google-site-verification" content="Vcki8KUFgGSkKZlGWNf5tzFar9tqpfDy7jlRHu1Ny8c">
-    <meta name="facebook-domain-verification" content="rv983ku8x66uk9n937qkp5387m31g7"><link rel="shortcut icon" type="image/png" href="../cdn/shop/files/android-chrome-192x192fee8.png?v=1686564707&amp;width=32"><title>Register page</title>
+    <meta name="facebook-domain-verification" content="rv983ku8x66uk9n937qkp5387m31g7">
+    <!-- <link rel="shortcut icon" type="image/png" href="../cdn/shop/files/android-chrome-192x192fee8.png?v=1686564707&amp;width=32"> -->
+    <title>Register page</title>
     <meta name="description" content="Online Shopping Store for trending fashions for Men’s &amp; Women’s at Veirdo. Buy Best T-shirts, Sweatshirts, Shorts, Joggers, Jackets &amp; Hoodies online in India. ">
     
 
