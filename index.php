@@ -194,6 +194,8 @@
     <!-- OUR BESTSELLERS start -->
     <?php include("best-seller.php"); ?>
     <!-- OUR BESTSELLERS end -->
+    
+   
 
     <!-- Video Section Start -->
     <div id="shopify-section-template--14826244636727__173381247008a2d844" class="shopify-section">
@@ -218,6 +220,7 @@
         </div>
       </div>
     </div>
+   
     <!-- Video Section End -->
 
     <!-- CENTRE STAGE COLLECTION start -->

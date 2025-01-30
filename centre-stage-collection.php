@@ -17,14 +17,20 @@
                                     <div class="product_link">
                                         <!-- For Mobile View Only -->
                                         <div class="container relative lg:hidden">
-                                            <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]">
+                                            
+                                            <div id="image-container" class="plp-carousel flex p-[2px] lg:hidden w-full relative image-container full-product-slider aspect-[2/3]" >
                                                 <figure class="w-full flex block">
+                                                   
+                                                    <a href="./product.php">
                                                     <img src="cdn/shop/files/01_0000_6_f9f06371-797c-46f5-a60c-044073e8c261f4c0.jpg?v=1733986005"
                                                         alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
                                                         class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                                                         width="980" height="1257" loading="lazy">
+                                                    </a>
+                                                   
                                                 </figure>
                                             </div>
+                                           
                                             <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-card-tag left-[1%]">
                                                 <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
                                                     PUFF PRINT T-SHIRT
@@ -52,10 +58,12 @@
                                         <div class="container hidden lg:flex relative">
                                             <div class="flex p-1 w-full relative image-container aspect-[2/3]">
                                                 <figure class="w-full flex">
+                                                    
                                                     <img src="cdn/shop/files/01_0000_6_f9f06371-797c-46f5-a60c-044073e8c261f4c0.jpg?v=1733986005"
                                                         alt="Conquer SwanWhite Oversized Puff Printed Exclusive T-shirt"
                                                         class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px]"
                                                         width="980" height="1257" loading="lazy">
+                                                   
                                                 </figure>
                                                 <div class="product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 left-[1%]">
                                                     <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]">
@@ -94,8 +102,10 @@
                                             </div>
                                             <div class="mt-1 mb-1.5">
                                                 <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                                                    <a href="./product.php">
                                                     <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
-                                                        width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                                                    width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                                                    </a>
                                                     <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
                                                 </div>
                                             </div>
@@ -202,8 +212,10 @@
                                             </div>
                                             <div class="mt-1 mb-1.5">
                                                 <div class="price-drop hidden cart-item rounded-l-full lowest-price lp-cart-item flex gap-1 items-center w-max">
+                                                    <a href="./product.php">
                                                     <img src="cdn/shop/t/64/assets/icon-price-dropf47f.svg?v=150853337221706652561714397178"
-                                                        width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                                                    width="10" height="12" alt="pricedrop_icon" class="lg:w-3 lg:h-6">
+                                                    </a>
                                                     <div class="font-[ibmMedium] text-xs lg:text-sm text-[#2063A1]">Lowest price in last 30 days</div>
                                                 </div>
                                             </div>
