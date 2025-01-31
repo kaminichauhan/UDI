@@ -2,100 +2,29 @@
 <html lang="en" class="no-js">
 
 <head>
-  <link href="cdn/shop/t/64/assets/fontae4b.css?v=50157125298610985211704803541" rel="stylesheet" type="text/css"
-    media="all" />
-  <link href="cdn/shop/t/64/assets/application.min5cfe.css?v=163312093385010144691737007238" rel="stylesheet"
-    type="text/css" media="all" />
-
-  <!-- <script src="cdn.jsdelivr.net/npm/%40growthbook/growthbook/dist/bundles/index.js"></script> -->
-  <script src="cdn/shop/t/64/assets/ab-test90e2.js?v=79723028281500467951720528958"></script>
-  <script src="cdn/shop/t/64/assets/application.min617f.js?v=86893644808988964271736939393"></script>
-  <script src="cdn/shop/t/64/assets/jquery-min-v3.6.1.min03ee.js?v=77389668493903155241704692039"></script>
-  <script src="cdn/shop/t/64/assets/cart-grouping.mincfd1.js?v=3489674350605185701732606037" defer="defer"></script>
-  <script src="cdn/shop/t/64/assets/base.min70af.js?v=132773053093560774521732606036" defer></script>
-  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-  <link href="cdn/shop/t/64/assets/mini-cart-drawer.min1f71.css?v=86613100141728982041704692040" rel="stylesheet"
-    type="text/css" media="all" />
-  <script src="cdn/shop/t/64/assets/product-common-function.mincc34.js?v=129864563763486658341732606038"
-    defer="defer"></script>
-  <script src="cdn/shop/t/64/assets/product-common-card.min0050.js?v=132855597793528529881717578406"
-    defer="defer"></script>
-  <script src="cdn/shop/t/64/assets/product-add-to-bag.mincedd.js?v=16858383435048487951727180947"
-    defer="defer"></script>
-  <link href="cdn/shop/t/64/assets/product-add-to-bag.mincb77.css?v=7892603211099314451726665388" rel="stylesheet"
-    type="text/css" media="all" />
-  <link href="cdn/shop/t/64/assets/product-card.mine3b7.css?v=94156981987166474241726569589" rel="stylesheet"
-    type="text/css" media="all" />
-  <link href="cdn/shop/t/64/assets/main-collection.min7b39.css?v=127799325196324841931726569589" rel="stylesheet"
-    type="text/css" media="all" />
-  <script src="cdn/shop/t/64/assets/main-collection.min1bee.js?v=18593632354520201901727438082"
-    defer="defer"></script>
-  <link rel="stylesheet" href="main.css">
-  <script src="extra.js"></script>
+  <?php include("inc/head-link.php") ?>
 </head>
 
 <body data-theme="tmrw_veirdo_theme">
   <!-- This div bluring screen -->
   <div class="blur-bg w-full h-screen absolute bg-white/30 hidden"></div>
 
-  <!-- header start -->
+  <!-- header section with navbar start -->
   <div id="shopify-section-header" class="shopify-section section-header">
     <!-- Top announcement-bar start -->
-    <?php include("top-bar.php") ?>
+    <?php include("announcement-bar.php") ?>
     <!-- Top announcement-bar end -->
 
     <!-- Menu icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
-      <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
-        <path fill-rule="evenodd" clip-rule="evenodd"
-          d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z"
-          fill="currentColor" />
-      </symbol>
-    </svg>
-    <!-- <img src="svg/menu.svg" alt=""> -->
+    <img src="svg/menu.svg" alt="" class="hidden">
 
-
-    <!-- Search Filed start -->
-    <div class=" min-w-[320px] search-modal__content mobile-search-block hidden"><predictive-search
-        class="search-modal__form relative w-full" data-loading-text="Loading...">
-        <form action="https://veirdo.in/search" method="get" role="search" class="search search-modal__form ">
-          <div class="flex gap-4 lg:block lg:mb-0 mb-5">
-            <img src="cdn/shop/t/64/assets/icon-arrow3667.svg?v=157279763716201898191704692040" loading="lazy"
-              width=20 height=20 class="block lg:hidden search-modal-back-button">
-            <div data-ga-view-custom data-ga-view-info-custom="Hamburger_View"
-              class="flex justify-between gap-5 field search-field w-full rounded-lg py-3 px-3 bg-[#F9F8FF] border-[0.5px] border-[#8F54F0]">
-
-              <input class="search__input field__input bg-transparent font-[ibmMedium] text-sm text-[#B8ACC5] w-full"
-                id="Search-In-Modal-1" type="search" name="q" value="" placeholder="Try searching “T-shirts”"
-                role="combobox" aria-expanded="false" aria-owns="predictive-search-results"
-                aria-controls="predictive-search-results" aria-haspopup="listbox" aria-autocomplete="list"
-                autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false">
-              <button class="search__button field__button px-3" aria-label="Search" type="button">
-                <input type="checkbox" class="search-toggle" hidden>
-                <div class="search-icon-field">
-                  <img src="svg/search.svg" alt="">
-                </div>
-                <div class="clear-search-field hidden">
-                  <img src="svg/close.svg" alt="">
-                </div>
-              </button>
-            </div>
-          </div>
-          <div class="predictive-search predictive-search--header blue-box-shadow hidden" tabindex="-1"
-            data-predictive-search>
-          </div>
-
-          <span class="predictive-search-status visually-hidden hidden" role="status" aria-hidden="true"></span>
-        </form>
-      </predictive-search>
-    </div>
-    <!-- Search Filed end -->
-
-    <!-- Navbar -->
+    <!-- Navbar start -->
     <?php include("inc/navbar.php") ?>
-    <!-- Navbar -->
+    <!-- Navbar end -->
+
   </div>
-  <!-- header end -->
+  <!-- header section with navbar end -->
+
 
   <!-- shopify-section-cart-drawer start -->
   <?php include("cart-drawer.php") ?>
@@ -121,7 +50,6 @@
   </div>
   <!-- banner end -->
 
-  </div>
   <section id="shopify-section-template--14826243653687__product-grid" class="shopify-section">
 
 
@@ -3242,11 +3170,6 @@
                           alt="Veirdo Original Swanwhite Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="1024" height="1536" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
 
                       </figure>
 
@@ -3259,11 +3182,7 @@
                           alt="Veirdo Original Swanwhite Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="1020" height="1536" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -3276,11 +3195,7 @@
                           alt="Veirdo Original Swanwhite Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="1020" height="1536" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -3293,11 +3208,7 @@
                           alt="Veirdo Original Swanwhite Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="1020" height="1536" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -3620,11 +3531,7 @@
                           alt="Veirdo Original Navy Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="1200" height="1600" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -3637,11 +3544,7 @@
                           alt="Veirdo Original Navy Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="980" height="1257" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -3654,11 +3557,7 @@
                           alt="Veirdo Original Navy Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="980" height="1257" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -3671,11 +3570,7 @@
                           alt="Veirdo Original Navy Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="980" height="1257" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -3688,11 +3583,7 @@
                           alt="Veirdo Original Navy Oversized Typography Brand Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="980" height="1257" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -4037,11 +3928,7 @@
                           alt="Originals Beige Oversized Chest Graphic Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="1080" height="1080" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -4055,11 +3942,7 @@
                           alt="Originals Beige Oversized Chest Graphic Printed Tshirt"
                           class="w-full h-full object-cover image-placeholder-bg rounded-lg lg:rounded-xl border-[#EEE] border-[0.5px] aspect-[2/3]"
                           width="1200" height="1600" loading="lazy">
-                        <style>
-                          .popup-feature-image-height {
-                            height: auto;
-                          }
-                        </style>
+                        
 
                       </figure>
 
@@ -4799,6 +4682,6 @@
   <!-- Back to Top button start -->
   <?php include("back-to-top.php") ?>
   <!-- Back to Top button end -->
-
+  <?php include("inc/foot-link.php") ?>
 
 </html>

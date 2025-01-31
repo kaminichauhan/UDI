@@ -217,7 +217,7 @@
         }
       }
     </style>
-<div id="announcement-bar"
+    <div id="announcement-bar"
       class="block font-[onestSemibold] py-2 px-3 text-center h-fit text-white text-xs lg:text-base lg:leading-none bg-[#2D8CE3]  z-[100]  relative uppercase text-center px-auto whitespace-nowrap">
       <div class="flex w-full items-center justify-center overflow-hidden">
         <div class="carousel-list-slider flex w-full lg:w-[40rem]">
@@ -242,12 +242,11 @@
       </div>
     </div>
 
-<!-------header-->
-<?php include './inc/navbar.php';?>
+    <!-------header-->
+    <?php include './inc/navbar.php'; ?>
 
     <script>
-
-      domReady(function () {
+      domReady(function() {
         productCarousel("carousel-list-slider", true, 1, 1, 1, 1, 0, false, false, 0, true, true, false, '', 5 ? 5000 : 5000);
 
         const announcementBar = document.querySelector('#announcement-bar');
@@ -264,9 +263,8 @@
     </svg>
     `;
       });
-
     </script>
-</div>
+  </div>
 
   <script src="../cdn/shop/t/64/assets/jquery-min-v3.6.1.min03ee.js?v=77389668493903155241704692039"></script>
   <script src="../cdn/shop/t/64/assets/cart-grouping.mincfd1.js?v=3489674350605185701732606037" defer="defer"></script>
@@ -462,7 +460,7 @@
 
     </div>
     <!------footer-->
-    <?php include './inc/footer.php';?>
+    <?php include './inc/footer.php'; ?>
 
 
     <button id="BackToTop" class="back-to-top right-2 lg:right-[60px]">
@@ -488,7 +486,6 @@
     <script src="../cdn/shop/t/64/assets/predictive-search.mind3e4.js?v=107557671509637896911707900564"
       defer="defer"></script>
     <script>
-
       const $jq = jQuery.noConflict();
 
       /* Start - Image Lazy loading Logic */
@@ -509,7 +506,10 @@
         observer.observe(image);
       });
       /* End - Image Lazy loading Logic */
-      function getTemplate() { const temp = "customers\/login"; return temp; }
+      function getTemplate() {
+        const temp = "customers\/login";
+        return temp;
+      }
       const getDeviceType = (width) => {
         return width >= 1024 ? "desktop" : width >= 768 ? "tablet" : "mobile";
       };
@@ -526,8 +526,8 @@
         }
       }
       //loading lottie cdn only when there is lottie on page
-      document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(function () {
+      document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
           var script = document.createElement('script');
           script.defer = true;
           script.src = '../../cdn.shopify.com/s/files/1/0485/2534/4920/files/lottie-player.minc559.js?v=1712587202';
