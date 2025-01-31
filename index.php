@@ -46,7 +46,7 @@
         </div>
       </div>
     </div>
-    <!-- Top announcement-bar end -->
+    <!-- Top announcement-bar end --> 
 
     <!-- Menu icon -->
     <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
