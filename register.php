@@ -732,9 +732,9 @@ transition: opacity 0.3s ease-in-out;
 <?php include './inc/footer.php';?>
     
     
-  <button id="BackToTop" class="back-to-top right-2 lg:right-[60px]">
+  <!-- <button id="BackToTop" class="back-to-top right-2 lg:right-[60px]">
     <img src="../cdn/shop/t/64/assets/icon-back-to-top3c55.svg?v=25966591052180162661706079523" width="40" height="40" alt="back to top" loading="lazy">
-  </button>
+  </button> -->
 
 
     <!-- TODO - remove the dependency of jquery for critical rendering -->
@@ -745,7 +745,7 @@ transition: opacity 0.3s ease-in-out;
         onload="this.media='all'"
       >
     <script>
-      window.shopUrl = '../index.html';
+      window.shopUrl = '../index.php';
       window.routes = {
         cart_add_url: '/cart/add',
         cart_change_url: '/cart/change',
@@ -757,7 +757,7 @@ transition: opacity 0.3s ease-in-out;
     
           const $jq = jQuery.noConflict();
     
-            /* Start - Image Lazy loading Logic */
+           
             const lazyImages = document.querySelectorAll('.lazy');
             const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach((entry) => {
@@ -774,7 +774,6 @@ transition: opacity 0.3s ease-in-out;
             lazyImages.forEach((image) => {
                 observer.observe(image);
             });
-            /* End - Image Lazy loading Logic */
             function getTemplate(){ const temp = "customers\/register"; return temp; }
             const getDeviceType = (width) => {
                return width >= 1024? "desktop": width >= 768? "tablet": "mobile";
@@ -791,14 +790,14 @@ transition: opacity 0.3s ease-in-out;
                 deviceType: getDeviceType(document.body.clientWidth)
              }
             }
-            //loading lottie cdn only when there is lottie on page
+            
             document.addEventListener('DOMContentLoaded', function () {
               setTimeout(function () {
                     var script = document.createElement('script');
                     script.defer = true;
                     script.src = '../../cdn.shopify.com/s/files/1/0485/2534/4920/files/lottie-player.minc559.js?v=1712587202';
                     document.head.appendChild(script);
-              }, 2000); // Delay of 2 seconds
+              }, 2000); 
               let currentScrollRange = -1;
               let lastPageUrl = '';
               window.addEventListener('scroll',()=>{

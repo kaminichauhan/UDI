@@ -1708,8 +1708,10 @@
                   <input type="radio" id="sort_by_input" name="so" arialabel="Price Low to High"
                     class="sortBtn checkbox sort-checkbox" value="price-ascending">
                   <span class="absolute left-[21px] pt-[11px]">
+                    <a href="./product.php">
                     <img src="cdn/shop/t/64/assets/icon-check9d12.svg?v=71056778941593993731704702524"
-                      loading="lazy" width="10" height="8" alt="check icon">
+                    loading="lazy" width="10" height="8" alt="check icon">
+                    </a>
                   </span>
                   <span class=" font-[ibmRegular] text-sm   text-[#484B5A] pl-4">Price Low to High</span>
                 </label>
@@ -3464,8 +3466,10 @@
                     <div
                       class="rating-section absolute  !left-[0.625rem] lg:!left-[0.75rem] !bottom-[0.625rem] lg:!bottom-[0.75rem]">
                       <div class="flex gap-[2px] items-center justify-center">
+                        <a href="./product.php">
                         <img src="cdn/shop/t/64/assets/icon-star5226.svg?v=116753354371702194131706021711"
-                          loading="lazy" alt="rating icon" width="15" height="15" class="lg:mt-1">
+                        loading="lazy" alt="rating icon" width="15" height="15" class="lg:mt-1">
+                        </a>
                         <div
                           class="flex items-baseline justify-center gap-1 text-[11px] lg:text-sm font-[ibmMedium] text-[#51575C]">
                           <span>4.5</span>
@@ -3878,8 +3882,10 @@
                       class="rating-section absolute  !left-[0.625rem] lg:!left-[0.75rem] !bottom-[0.625rem] lg:!bottom-[0.75rem]">
                       <div class="flex gap-[2px] items-center justify-center">
 
+                        <a href="./product.php">
                         <img src="cdn/shop/t/64/assets/icon-star5226.svg?v=116753354371702194131706021711"
-                          loading="lazy" alt="rating icon" width="15" height="15" class="lg:mt-1">
+                        loading="lazy" alt="rating icon" width="15" height="15" class="lg:mt-1">
+                        </a>
 
                         <div
                           class="flex items-baseline justify-center gap-1 text-[11px] lg:text-sm font-[ibmMedium] text-[#51575C]">
@@ -4192,8 +4198,10 @@
                     <div
                       class="rating-section absolute  !left-[0.625rem] lg:!left-[0.75rem] !bottom-[0.625rem] lg:!bottom-[0.75rem]">
                       <div class="flex gap-[2px] items-center justify-center">
+                        <a href="./product.php">
                         <img src="cdn/shop/t/64/assets/icon-star5226.svg?v=116753354371702194131706021711"
-                          loading="lazy" alt="rating icon" width="15" height="15" class="lg:mt-1">
+                        loading="lazy" alt="rating icon" width="15" height="15" class="lg:mt-1">
+                        </a>
                         <div
                           class="flex items-baseline justify-center gap-1 text-[11px] lg:text-sm font-[ibmMedium] text-[#51575C]">
                           <span>4.6</span>
