@@ -323,3 +323,14 @@
 
 
   </div>
+
+  <button id="BackToTop" class="back-to-top right-2 lg:right-[60px]">
+            <img src="cdn/shop/t/64/assets/icon-back-to-top3c55.svg?v=25966591052180162661706079523" width="40"
+                height="40" alt="back to top" loading="lazy">
+        </button>
+
+        <script src="cdn/shop/t/64/assets/hamburger-menu.min06f4.js?v=84340172155576691991733916671" defer></script>
+        <link rel="stylesheet" href="cdn/shop/t/64/assets/predictive-search.min6c24.css?v=93769007446315028791707132699"
+            media="print" onload="this.media='all'">
+        <script src="cdn/shop/t/64/assets/predictive-search.mind3e4.js?v=107557671509637896911707900564" defer="defer">
+        </script>

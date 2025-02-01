@@ -1,820 +1,353 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
 
 <head>
-    <link href="cdn/shop/t/64/assets/fontae4b.css?v=50157125298610985211704803541" rel="stylesheet" type="text/css"
-        media="all" />
-    <link href="cdn/shop/t/64/assets/application.min5cfe.css?v=163312093385010144691737007238" rel="stylesheet"
-        type="text/css" media="all" />
 
-    <!-- <script src="cdn.jsdelivr.net/npm/%40growthbook/growthbook/dist/bundles/index.js"></script> -->
-    <script src="cdn/shop/t/64/assets/ab-test90e2.js?v=79723028281500467951720528958"></script>
-    <script src="cdn/shop/t/64/assets/application.min617f.js?v=86893644808988964271736939393"></script>
-    <script src="cdn/shop/t/64/assets/jquery-min-v3.6.1.min03ee.js?v=77389668493903155241704692039"></script>
-    <script src="cdn/shop/t/64/assets/cart-grouping.mincfd1.js?v=3489674350605185701732606037" defer="defer"></script>
-    <script src="cdn/shop/t/64/assets/base.min70af.js?v=132773053093560774521732606036" defer></script>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link href="cdn/shop/t/64/assets/mini-cart-drawer.min1f71.css?v=86613100141728982041704692040" rel="stylesheet"
-        type="text/css" media="all" />
-    <script src="cdn/shop/t/64/assets/product-common-function.mincc34.js?v=129864563763486658341732606038"
-        defer="defer"></script>
-    <script src="cdn/shop/t/64/assets/product-common-card.min0050.js?v=132855597793528529881717578406" defer="defer">
-    </script>
-    <script src="cdn/shop/t/64/assets/product-add-to-bag.mincedd.js?v=16858383435048487951727180947" defer="defer">
-    </script>
-    <link href="cdn/shop/t/64/assets/product-add-to-bag.mincb77.css?v=7892603211099314451726665388" rel="stylesheet"
-        type="text/css" media="all" />
-    <link href="cdn/shop/t/64/assets/product-card.mine3b7.css?v=94156981987166474241726569589" rel="stylesheet"
-        type="text/css" media="all" />
-    <link href="cdn/shop/t/64/assets/main-collection.min7b39.css?v=127799325196324841931726569589" rel="stylesheet"
-        type="text/css" media="all" />
-    <script src="cdn/shop/t/64/assets/main-collection.min1bee.js?v=18593632354520201901727438082" defer="defer">
-    </script>
-    <link rel="stylesheet" href="main.css">
-    <script src="extra.js"></script>
-    <link rel="preconnect dns-prefetch" href="https://api.config-security.com/" crossorigin>
-    <!-- Gokwik theme code start -->
-    <link rel="dns-prefetch" href="https://pdp.gokwik.co/">
-    <link rel="dns-prefetch" href="https://api.gokwik.co/">
-    <!-- Gokwik theme code end -->
-    <link rel="preconnect" href="https://abtests-proxy.tmrw.in/">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+  <style>
+    /* Add your CSS styles here */
 
+    .outer-grid {
+      display: none;
+    }
 
-    <link rel="preconnect" href="https://cdn.shopify.com/" crossorigin>
+    .img_producto_container {
+      position: relative;
+      overflow: hidden;
+      cursor: zoom-in;
+    }
 
+    .img_producto {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.5s ease-out;
+    }
 
-    <link rel="preload" href="cdn/shop/files/01_028a14.jpg?v=1730189513&amp;width=360" as="image">
+    @media screen and (min-width: 768px) {
+      .outer-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+    }
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    .hidden {
+      display: none;
+    }
 
-    <meta name="theme-color" content="">
-    <meta name="google-site-verification" content="Vcki8KUFgGSkKZlGWNf5tzFar9tqpfDy7jlRHu1Ny8c">
-    <meta name="facebook-domain-verification" content="rv983ku8x66uk9n937qkp5387m31g7">
-    <!-- <link rel="shortcut icon" type="image/png"
-        href="cdn/shop/files/android-chrome-192x192fee8.png?v=1686564707&amp;width=32"> -->
-    <title>Product Page</title>
-    <meta name="description"
-        content="Made of 100% Cotton Neck Type Round Neck Fit Type Oversized Fit Color Black Pattern Puff Print Sleeve Type Half Sleeve Care Instruction Machine washable Available Sizes S,M,L,XL,XXL SKU OS_V_ITSALWYLNLY_BK Country of origin India">
+    .lazy {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
 
+    .lazy.loaded {
+      opacity: 1;
+    }
 
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
 
+    .back-to-top img {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+  <style>
+    .outer-grid {
+      display: none;
+    }
 
-    <link rel="canonical" href="always-lonely-at-the-top-black-oversized-tshirt.html">
-    <meta name="keywords"
-        content="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt,Veirdo,veirdo.in" />
-    <meta name="author" content="The4">
-    <meta property="og:site_name" content="Veirdo">
-    <meta property="og:url" content="https://veirdo.in/products/always-lonely-at-the-top-black-oversized-tshirt">
-    <meta property="og:title" content="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt">
-    <meta property="og:type" content="og:product">
-    <meta property="og:description"
-        content="Made of 100% Cotton Neck Type Round Neck Fit Type Oversized Fit Color Black Pattern Puff Print Sleeve Type Half Sleeve Care Instruction Machine washable Available Sizes S,M,L,XL,XXL SKU OS_V_ITSALWYLNLY_BK Country of origin India">
-    <meta property="product:price:amount" content="599.00">
-    <meta property="product:price:amount" content="INR">
-    <meta property="og:image" content="http://veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513">
-    <meta property="og:image:secure_url" content="https://veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513">
-    <meta property="og:image:width" content="980">
-    <meta property="og:image:height" content="1257">
-    <meta property="og:image" content="http://veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785">
-    <meta property="og:image:secure_url" content="https://veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785">
-    <meta property="og:image:width" content="1080">
-    <meta property="og:image:height" content="1440">
-    <meta property="og:image" content="http://veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011">
-    <meta property="og:image:secure_url"
-        content="https://veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011">
-    <meta property="og:image:width" content="4027">
-    <meta property="og:image:height" content="2728">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt">
-    <meta name="twitter:description"
-        content="Made of 100% Cotton Neck Type Round Neck Fit Type Oversized Fit Color Black Pattern Puff Print Sleeve Type Half Sleeve Care Instruction Machine washable Available Sizes S,M,L,XL,XXL SKU OS_V_ITSALWYLNLY_BK Country of origin India">
+    .img_producto_container {
+      position: relative;
+      overflow: hidden;
+      cursor: zoom-in;
+    }
 
+    .img_producto {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.5s ease-out;
+    }
 
+    @media screen and (min-width: 768px) {
+      .outer-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+    }
+  </style>
+  <style data-shopify>
+    .breadcrumb a {
+      color: #131814;
+      font-family: ibmMedium;
+      font-size: 14px;
+    }
 
-    <script>
-        window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');
-    </script>
-    <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/19827331/digital_wallets/dialog">
-    <link rel="alternate" type="application/json+oembed" href="always-lonely-at-the-top-black-oversized-tshirt.oembed">
-    <script async="async" src="../checkouts/internal/preloadsd568.js?locale=en-IN"></script>
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
 
+    .breadcrumb span {
+      color: #afb2b4;
+      font-size: 14px;
+      font-family: ibmMedium;
+    }
+  </style>
+  <?php include("inc/head-link.php") ?>
+</head>
 
-    <link href="cdn/shop/t/64/assets/fontae4b.css?v=50157125298610985211704803541" rel="stylesheet" type="text/css"
-        media="all" />
-    <link href="cdn/shop/t/64/assets/application.min5cfe.css?v=163312093385010144691737007238" rel="stylesheet"
-        type="text/css" media="all" />
+<body data-theme="tmrw_veirdo_theme">
+  <div class="blur-bg w-full h-screen absolute bg-white/30 hidden"></div>
 
+  <!-- header section with navbar start -->
+  <div id="shopify-section-header" class="shopify-section section-header">
+    <!-- Top announcement-bar start -->
+    <?php include("announcement-bar.php") ?>
+    <!-- Top announcement-bar end -->
 
-    <script src="cdn.jsdelivr.net/npm/%40growthbook/growthbook/dist/bundles/index.js"></script>
-    <script src="cdn/shop/t/64/assets/ab-test90e2.js?v=79723028281500467951720528958"></script>
+    <!-- Menu icon -->
+    <img src="svg/menu.svg" alt="" class="hidden">
 
+    <!-- Navbar start -->
+    <?php include("inc/navbar.php") ?>
+    <!-- Navbar end -->
 
-    <noscript>
-        <img height="1" width="1" src="https://www.facebook.com/tr?id=471606806752294&amp;ev=PageView&amp;noscript=1">
-    </noscript>
-    <script src="cdn/shop/t/64/assets/application.min617f.js?v=86893644808988964271736939393"></script>
-
-    <!-- END app block -->
-    <script
-        src="cdn.shopify.com/extensions/1f805629-c1d3-44c5-afa0-f2ef641295ef/booster-page-speed-optimizer-1/assets/speed-embed.js"
-        type="text/javascript" defer="defer"></script>
-    <script
-        src="cdn.shopify.com/extensions/9b51cc8c-feb7-4fec-abd0-af3f3b4d4c0c/whatmore-shoppable-videos-1158/assets/video-shopping.js"
-        type="text/javascript" defer="defer"></script>
-    <link href="https://monorail-edge.shopifysvc.com/" rel="dns-prefetch">
-
-
-    <link rel="stylesheet" href="../cdn/shop/t/64/assets/menu-drawer.min083a.css?v=22725633303677443161721989317"
-        media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="../cdn/shop/t/64/assets/search.min369e.css?v=7817771557814800351706603870"
-        media="print" onload="this.media='all'">
-
-    <script src="cdn/shop/t/64/assets/search-form.min89f0.js?v=109535391130340312781707917524" defer="defer">
-    </script>
-    <svg xmlns="http://www.w3.org/2000/svg" class="hidden">
-        <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z"
-                fill="currentColor" />
-        </symbol>
-    </svg>
+  </div>
+  <!-- header section with navbar end -->
 
 
+  <!-- shopify-section-cart-drawer start -->
+  <?php include("cart-drawer.php") ?>
+  <!-- shopify-section-cart-drawer end -->
+  <!----------------------------------------------------------------------------------------------------------------------->
 
-    <!----------header-->
-    <?php include './inc/navbar.php'; ?>
 
+  <div class="theme-content fix-content-width" id="">
+    <div id="shopify-section-template--14876768305207__main" class="shopify-section">
+      <!-- breadcrumbs start -->
+      <div class="breadcrumbs-desktop hidden lg:block md:px-40 mt-[20px]">
 
-    <div class="slider hidden-block flex fixed w-full top-0 right-0 bottom-0 bg-gray-600/25 z-[100]">
-        <div class="slider__empty h-full w-[10%] lg:w-[65%] z-[150] bg-transparent overflow-hidden"></div>
-        <div
-            class="slider__container h-[100dvh] w-[90%] lg:w-[35%] bg-white overflow-y-auto relative cart-drawer-wrapper">
-            <div data-ga-view data-ga-view-info="Cart_Halfcard_View" id="main-cart-items" data-id="cart-drawer">
-                <div class="js-contents flex flex-col h-[100dvh] overflow-hidden">
-                    <!-- My cart start -->
-                    <div class="w-full lg:border-b-4 lg:border-[#f6f6f6] bg-white z-[10] ">
-                        <div class="flex justify-between p-4" id="cart-mobile-count-header">
-                            <div data-ga-view-quick data-ga-view-info-quick="index_HalfCart_View"
-                                data-ga-view-payload-quick="{itemProductTag: '', NoOfStyles:'0',cartTotalDiscount:'0.0',cartValue:'0.0' itemStyleId:'', itemStyleQty:'', itemPrice:'', itemDiscountPrice:''}"
-                                class="text-[#222527] font-[ibmSemiBold] text-sm lg:text-base uppercase"> MY Cart </div>
-                            <button class="icon-close-drawer ">
-                                <img src="cdn/shop/t/64/assets/icon-close15dc.svg?v=42907484647275626011705057419"
-                                    loading="lazy" width="24" height="24" alt="cart close icon">
-                            </button>
-                        </div>
-                    </div>
-                    <!-- My cart end -->
+        <nav class="breadcrumb capitalize flex p-4 lg:p-0 gap-1 flex-wrap" role="navigation" aria-label="breadcrumbs">
+          <a href="../index.html" title="Home">Home</a>
+          <span aria-hidden="true">></span>
+          <span>Product</span>
+        </nav>
+      </div>
+      <!-- breadcrumbs end -->
 
-                    <!-- My bag start -->
-                    <div class="overflow-y-auto h-full">
-                        <div class="flex flex-col justify-between h-[80vh] lg:h-[70vh] gap-12">
-                            <div id="empty-cart-items" data-id="empty-cart-drawer" class="h-full ">
-                                <div class="js-contents h-full flex w-full justify-center ">
-                                    <div class="lg:pb-20 pt-8 h-full flex items-center lg:h-[130%]">
-                                        <div class="">
-                                            <p
-                                                class="hidden cart-drawer-cart-heading text-[#222527] font-[ibmSemiBold] text-sm lg:text-xl uppercase lg:pl-[9.4rem]  pb-[4.125rem]">
-                                                MY BAG </p>
-                                            <div class="flex flex-col justify-center items-center gap-3 lg:gap-4  ">
-                                                <img src="cdn/shop/t/64/assets/icon-empty-cartf0b8.gif?v=169249166671359598681705057421"
-                                                    alt="empty cart icon" loading="lazy" width="160" height="140">
-                                                <div class="flex flex-col items-center gap-2 lg:gap-3">
-                                                    <p class="text-[#131814] text-base font-[soraSemiBold]">looks like
-                                                        your cart is on a diet </p>
-                                                    <span class="text-[#74797D] font-[ibmRegular] text-sm">waiting for
-                                                        some trendy threads to bulk it up!</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+      <main class="flex flex-col md:grid md:grid-cols-10 md:gap-10 md:py-6 md:px-40">
+        <div id="product-image-carousel-wrapper" class="h-full w-full col-span-6 relative">
+          <div id="image-container" class="w-full flex lg:hidden h-fit relative overflow-hidden">
+            <div class="container main-product-card-container">
+              <div class="product-slider-container pdp-main-image product-image-6931091226679 relative image-container flex gap-4" style="max-width: 100vw;">
+                <figure class="flex aspect-[3/4] cursor-pointer product-figure">
+                  <a href="product.php" data-id="6931091226679" data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ=" data-price="599" data-href="/products/always-lonely-at-the-top-black-oversized-tshirt" data-product_index="1" class="w-full h-full">
+                    <img srcset="//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=165 165w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=360 360w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533 533w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=720 720w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=940 940w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513 980w" src="cdn/shop/files/01_023d86.jpg?v=1730189513" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-0" width="980" loading="lazy" height="1257" index="0" type="pdp-main-img">
+                  </a>
+                </figure>
 
-                            <div id="cart-recently-viewed" data-id="cart-drawer">
-                                <div class="js-contents">
-                                    <section class="cart-drawer__recently-viewed" id="recently_view_container_cart">
-                                        <div class=" mb-8 lg:mb-12    ">
-                                            <div class="container flex-col gap-2 lg:gap-4">
-                                                <h2
-                                                    class="font-[soraSemiBold] text-xs lg:text-lg text-[#2D3033] lg:pl-1 uppercase">
-                                                    RECENTLY VIEWED PRODUCTS
-                                                </h2>
-                                                <div class="cart-recently-viewed sliderContainer" role="list"></div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- My bag end -->
-                </div>
+                <figure class="flex aspect-[3/4] cursor-pointer product-figure">
+                  <a href="product.php" data-id="6931091226679" data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ=" data-price="599" data-href="/products/always-lonely-at-the-top-black-oversized-tshirt" data-product_index="2" class="w-full h-full">
+                    <img srcset="//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=165 165w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=360 360w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=533 533w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=720 720w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=940 940w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=1066 1066w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785 1080w" src="cdn/shop/files/20_2a940.jpg?v=1715012785" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-1" width="1080" loading="lazy" height="1440" index="1" type="pdp-main-img">
+                  </a>
+                </figure>
+
+                <figure class="flex aspect-[3/4] cursor-pointer product-figure">
+                  <a href="product.php" data-id="6931091226679" data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ=" data-price="599" data-href="/products/always-lonely-at-the-top-black-oversized-tshirt" data-product_index="3" class="w-full h-full">
+                    <img srcset="//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=165 165w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=360 360w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=533 533w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=720 720w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=940 940w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=1066 1066w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011 4027w" src="cdn/shop/files/ImportedPhoto.751811509.0762060432.jpg?v=1731157011" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-2" width="4027" loading="lazy" height="2728" index="2" type="pdp-main-img">
+                  </a>
+                </figure>
+
+                <figure class="flex aspect-[3/4] cursor-pointer product-figure">
+                  <a href="product.php" data-id="6931091226679" data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ=" data-price="599" data-href="/products/always-lonely-at-the-top-black-oversized-tshirt" data-product_index="4" class="w-full h-full">
+                    <img srcset="//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782 1200w" src="cdn/shop/files/01_010a5c.jpg?v=1715012782" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-3" width="1200" loading="lazy" height="1600" index="3" type="pdp-main-img">
+                  </a>
+                </figure>
+
+                <figure class="flex aspect-[3/4] cursor-pointer product-figure">
+                  <a href="product.php" data-id="6931091226679" data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ=" data-price="599" data-href="/products/always-lonely-at-the-top-black-oversized-tshirt" data-product_index="5" class="w-full h-full">
+                    <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w" src="cdn/shop/files/4740a5c.jpg?v=1715012782" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-4" width="1200" loading="lazy" height="1600" index="4" type="pdp-main-img">
+                  </a>
+                </figure>
+
+                <figure class="flex aspect-[3/4] cursor-pointer product-figure">
+                  <a href="product.php" data-id="6931091226679" data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ=" data-price="599" data-href="/products/always-lonely-at-the-top-black-oversized-tshirt" data-product_index="5" class="w-full h-full">
+                    <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w" src="cdn/shop/files/4740a5c.jpg?v=1715012782" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-4" width="1200" loading="lazy" height="1600" index="5" type="pdp-main-img">
+                  </a>
+                </figure>
+              </div>
             </div>
+
+            <div class="product-image-tag product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-main-image-tag left-[1%] !left-0">
+              <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]"> Oversized </span>
+            </div>
+          </div>
+
+
+          <div>
+            <div class="outer-grid pdp-main-image gap-1">
+              <div class="product-image-tag product-image-tag flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-main-image-tag left-[1%] !left-0">
+                <span class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]"> Oversized </span>
+              </div>
+
+              <figure id="image-container" class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
+                <img srcset="//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=165 165w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=360 360w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533 533w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=720 720w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=940 940w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513 980w" src="cdn/shop/files/01_023d86.jpg?v=1730189513" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto" width="980" loading="eager" height="1257" index="0" type="pdp-main-img" target="_self">
+              </figure>
+
+              <figure id="image-container" class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
+                <img srcset="//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=165 165w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=360 360w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=533 533w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=720 720w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=940 940w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=1066 1066w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785 1080w" src="cdn/shop/files/20_2a940.jpg?v=1715012785" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto" width="1080" loading="eager" height="1440" index="1" type="pdp-main-img" target="_self">
+              </figure>
+
+              <figure id="image-container" class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
+                <img srcset="//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=165 165w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=360 360w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=533 533w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=720 720w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=940 940w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=1066 1066w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011 4027w" src="cdn/shop/files/ImportedPhoto.751811509.0762060432.jpg?v=1731157011" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto" width="4027" loading="eager" height="2728" index="2" type="pdp-main-img" target="_self">
+              </figure>
+
+              <figure id="image-container" class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
+                <img srcset="//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782 1200w" src="cdn/shop/files/01_010a5c.jpg?v=1715012782" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto" width="1200" loading="eager" height="1600" index="3" type="pdp-main-img" target="_self">
+              </figure>
+
+              <figure id="image-container" class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
+                <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w" src="cdn/shop/files/4740a5c.jpg?v=1715012782" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto" width="1200" loading="eager" height="1600" index="4" type="pdp-main-img" target="_self">
+              </figure>
+
+              <figure id="image-container" class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
+                <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w" src="cdn/shop/files/4740a5c.jpg?v=1715012782" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto" width="1200" loading="eager" height="1600" index="5" type="pdp-main-img" target="_self">
+              </figure>
+            </div>
+          </div>
+
+          <div class="expand-modal hidden flex-col justify-between">
+            <div class="expand-modal-bg absolute top-0 left-0 bg-[#fff] lg:bg-[#131814] h-full w-full"></div>
+            <div class="expand-modal-close flex justify-end w-full z-[95] m-4 gap-3 mr-10">
+              <button class="expand-modal-zoomout cursor-pointer z-[96] p-1 bg-white border-[0.38px] border-[#13181433] shadow-[0.75px_0.75px_0px_0px_#131814] rounded-md">
+                <img src="cdn/shop/t/64/assets/icon-zoom-out262c.svg?v=22947114605117513751722237261" width="16" height="16" alt="zoom in icon" loading="lazy">
+              </button>
+              <button class="expand-modal-zoomin cursor-pointer z-[96] p-1 bg-white border-[0.38px] border-[#13181433] shadow-[0.75px_0.75px_0px_0px_#131814] rounded-md">
+                <img src="cdn/shop/t/64/assets/icon-zoom-in716a.svg?v=78164603656360222201722237261" width="16" height="16" alt="zoom in icon" loading="lazy">
+              </button>
+              <button class="expand-modal-close-btn cursor-pointer z-[96] p-1 bg-white border-[0.38px] border-[#13181433] shadow-[0.75px_0.75px_0px_0px_#131814] rounded-md">
+                <img src="cdn/shop/t/64/assets/icon-expand-close9ae8.svg?v=6910857965490087961722237261" width="16" height="16" alt="expand close" loading="lazy">
+              </button>
+            </div>
+            <div class="expand-modal-images flex-1 flex items-center w-full max-h-[50%]">
+              <div class="pdp-expand-image pdp-slider-container w-full max-w-lg">
+                <figure id="image-container" class="image-container">
+                  <img srcset="//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=165 165w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=360 360w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533 533w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=720 720w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=940 940w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513 980w" src="cdn/shop/files/01_023d86.jpg?v=1730189513" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg w-full h-full object-cover" width="980" loading="lazy" height="1257" index="0" zoom-applied="false" type="pdp-expand-img">
+                </figure>
+
+                <figure id="image-container" class="image-container">
+                  <img srcset="//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=165 165w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=360 360w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=533 533w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=720 720w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=940 940w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=1066 1066w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785 1080w" src="cdn/shop/files/20_2a940.jpg?v=1715012785" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg w-full h-full object-cover" width="1080" loading="lazy" height="1440" index="1" zoom-applied="false" type="pdp-expand-img">
+                </figure>
+
+                <figure id="image-container" class="image-container">
+                  <img srcset="//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=165 165w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=360 360w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=533 533w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=720 720w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=940 940w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=1066 1066w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011 4027w" src="cdn/shop/files/ImportedPhoto.751811509.0762060432.jpg?v=1731157011" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg w-full h-full object-cover" width="4027" loading="lazy" height="2728" index="2" zoom-applied="false" type="pdp-expand-img">
+                </figure>
+
+                <figure id="image-container" class="image-container">
+                  <img srcset="//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782 1200w" src="cdn/shop/files/01_010a5c.jpg?v=1715012782" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg w-full h-full object-cover" width="1200" loading="lazy" height="1600" index="3" zoom-applied="false" type="pdp-expand-img">
+                </figure>
+
+                <figure id="image-container" class="image-container">
+                  <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w" src="cdn/shop/files/4740a5c.jpg?v=1715012782" sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg w-full h-full object-cover" width="1200" loading="lazy" height="1600" index="4" zoom-applied="false" type="pdp-expand-img">
+                </figure>
+              </div>
+            </div>
+            <div class="thumbnail-wrapper my-2 mx-4 px-4 lg:mt-10 flex justify-start items-center w-full md:w-[30%] md:pb-7 overflow-x-scroll hide-scrollbar">
+              <div class="flex items-start gap-2 relative left-0">
+                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
+                  <img src="cdn/shop/files/01_02209d.jpg?v=1730189513&amp;width=75" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover relative thumbnail-inactive" width="75" loading="lazy" height="100" index="0">
+                </figure>
+
+                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
+                  <img src="cdn/shop/files/20_2d30c.jpg?v=1715012785&amp;width=75" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover relative thumbnail-inactive" width="75" loading="lazy" height="100" index="1">
+                </figure>
+
+                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
+                  <img src="cdn/shop/files/ImportedPhoto.751811509.0762069fcf.jpg?v=1731157011&amp;width=75" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover relative thumbnail-inactive" width="75" loading="lazy" height="100" index="2">
+                </figure>
+
+                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
+                  <img src="cdn/shop/files/01_01c062.jpg?v=1715012782&amp;width=75" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover relative thumbnail-inactive" width="75" loading="lazy" height="100" index="3">
+                </figure>
+
+                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
+                  <img src="cdn/shop/files/474c062.jpg?v=1715012782&amp;width=75" alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt" class="image-placeholder-bg h-full object-cover relative thumbnail-inactive" width="75" loading="lazy" height="100" index="4">
+                </figure>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
 
-
-    </div>
-
-    <script src="cdn/shop/t/64/assets/jquery-min-v3.6.1.min03ee.js?v=77389668493903155241704692039"></script>
-    <script src="cdn/shop/t/64/assets/cart-grouping.mincfd1.js?v=3489674350605185701732606037" defer="defer">
-    </script>
-    <script src="cdn/shop/t/64/assets/base.min70af.js?v=132773053093560774521732606036" defer></script>
-
-    <section id="shopify-section-cart-drawer" class="shopify-section">
-        <link href="cdn/shop/t/64/assets/mini-cart-drawer.min1f71.css?v=86613100141728982041704692040" rel="stylesheet"
-            type="text/css" media="all" />
-        <style>
-            .hidden-block {
-                display: none !important;
-            }
-        </style>
-
-
-        <div class="slider hidden-block flex fixed w-full top-0 right-0 bottom-0 bg-gray-600/25 z-[100]">
-            <div class="slider__empty h-full w-[10%] lg:w-[65%] z-[150] bg-transparent overflow-hidden"></div>
-            <div
-                class="slider__container h-[100dvh] w-[90%] lg:w-[35%] bg-white overflow-y-auto relative cart-drawer-wrapper">
-                <div data-ga-view data-ga-view-info="Cart_Halfcard_View" id="main-cart-items" data-id="cart-drawer">
-                    <div class="js-contents flex flex-col h-[100dvh] overflow-hidden">
-                        <div class="w-full lg:border-b-4 lg:border-[#f6f6f6] bg-white z-[10] ">
-
-
-                            <div class="flex justify-between p-4" id="cart-mobile-count-header">
-                                <div data-ga-view-quick data-ga-view-info-quick="product_HalfCart_View"
-                                    data-ga-view-payload-quick="{itemProductTag: '', NoOfStyles:'0',cartTotalDiscount:'0.0',cartValue:'0.0', itemStyleId:'', itemStyleQty:'', itemPrice:'', itemDiscountPrice:''}"
-                                    class="text-[#222527] font-[ibmSemiBold] text-sm lg:text-base uppercase">
-                                    MY Cart
-
-                                </div>
-                                <button class="icon-close-drawer ">
-                                    <img src="cdn/shop/t/64/assets/icon-close15dc.svg?v=42907484647275626011705057419"
-                                        loading="lazy" width="24" height="24" alt="cart close icon">
-                                </button>
-                            </div>
-
-                            <script>
-                                let objectCart = {
-                                    "note": null,
-                                    "attributes": {},
-                                    "original_total_price": 0,
-                                    "total_price": 0,
-                                    "total_discount": 0,
-                                    "total_weight": 0.0,
-                                    "item_count": 0,
-                                    "items": [],
-                                    "requires_shipping": false,
-                                    "currency": "INR",
-                                    "items_subtotal_price": 0,
-                                    "cart_level_discount_applications": [],
-                                    "checkout_charge_amount": 0
-                                };
-                            </script>
-                        </div>
-                        <div class="overflow-y-auto h-full">
-
-                            <div class="flex flex-col justify-between h-[80vh] lg:h-[70vh] gap-12">
-                                <script>
-                                    let emptyCartData;
-                                </script>
-                                <div id="empty-cart-items" data-id="empty-cart-drawer" class="h-full ">
-                                    <div class="js-contents h-full flex w-full justify-center ">
-
-                                        <div class="lg:pb-20 pt-8 h-full flex items-center lg:h-[130%]">
-                                            <div class="">
-                                                <p
-                                                    class="hidden cart-drawer-cart-heading text-[#222527] font-[ibmSemiBold] text-sm lg:text-xl uppercase lg:pl-[9.4rem]  pb-[4.125rem]">
-                                                    MY BAG
-                                                </p>
-                                                <div class="flex flex-col justify-center items-center gap-3 lg:gap-4  ">
-                                                    <img src="../cdn/shop/t/64/assets/icon-empty-cartf0b8.gif?v=169249166671359598681705057421"
-                                                        alt="empty cart icon" loading="lazy" width="160" height="140">
-                                                    <div class="flex flex-col items-center gap-2 lg:gap-3">
-                                                        <p class="text-[#131814] text-base font-[soraSemiBold]">looks
-                                                            like your cart is on a diet</p>
-                                                        <span class="text-[#74797D] font-[ibmRegular] text-sm">waiting
-                                                            for some trendy threads to bulk it up!</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div id="cart-recently-viewed" data-id="cart-drawer">
-                                    <div class="js-contents">
-
-                                        <section class="cart-drawer__recently-viewed" id="recently_view_container_cart">
-                                            <div class=" mb-8 lg:mb-12    ">
-                                                <div class="container flex-col gap-2 lg:gap-4">
-                                                    <h2
-                                                        class="font-[soraSemiBold] text-xs lg:text-lg text-[#2D3033] lg:pl-1 uppercase">
-                                                        RECENTLY VIEWED PRODUCTS
-                                                    </h2>
-                                                    <div class="cart-recently-viewed sliderContainer" role="list"></div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="lg:hidden border-b-4 border-b-[#F6F6F6]">
+          <div class="ga-timer bg-[#EAF4FC] text-[#2063A1]">
+            <div class="text-xs lg:text-sm flex flex-row gap-1 justify-center px-1 py-2 lg:py-1.5 lg:px-2 font-[ibmMedium]">
+              <div class="uppercase">Sale ends in</div>
+              <div>:</div>
+              <div id="sales_countdown" class="sales_countdown font-[ibmSemiBold] flex flex-row gap-0.5">00h : 10m : 30s</div>
             </div>
+          </div>
         </div>
-    </section>
 
+        <div class="flex flex-col col-span-4">
+          <div class="hidden lg:block mb-1.5">
+            <div class="ga-timer w-full rounded-lg bg-[#EAF4FC] text-[#2063A1]">
+              <div class="text-xs lg:text-sm flex flex-row gap-1 justify-center px-1 py-2 lg:py-1.5 lg:px-2 font-[ibmMedium]">
+                <div class="uppercase">Sale ends in</div>
+                <div>:</div>
+                <div id="sales_countdown" class="sales_countdown font-[ibmSemiBold] flex flex-row gap-0.5">00h : 10m : 30s</div>
+              </div>
+            </div>
+          </div>
 
-
-    <link href="cdn/shop/t/64/assets/custom-product-card.minc421.css?v=47678239293656267141706002271" rel="stylesheet">
-
-    <script src="cdn/shop/t/64/assets/product-common-function.mincc34.js?v=129864563763486658341732606038"
-        defer="defer"></script>
-
-
-    <script src="cdn/shop/t/64/assets/product-common-card.min0050.js?v=132855597793528529881717578406" defer="defer">
-    </script>
-    <script src="cdn/shop/t/64/assets/product-add-to-bag.mincedd.js?v=16858383435048487951727180947" defer="defer">
-    </script>
-    <link href="cdn/shop/t/64/assets/product-add-to-bag.mincb77.css?v=7892603211099314451726665388" rel="stylesheet"
-        type="text/css" media="all" />
-    <link href="cdn/shop/t/64/assets/product-card.mine3b7.css?v=94156981987166474241726569589" rel="stylesheet"
-        type="text/css" media="all" />
-        <!-- main content -->
-    <div class="theme-content fix-content-width" id="">
-        <div id="shopify-section-template--14876768305207__main" class="shopify-section">
-            <link href="cdn/shop/t/64/assets/main-product.minf1dc.css?v=92510182905843862231729072615" rel="stylesheet"
-                type="text/css" media="all" />
-            <link href="cdn/shop/t/64/assets/judgeme-redesignce56.css?v=139011462343639329901707743814" rel="stylesheet"
-                type="text/css" media="all" />
-            <script src="cdn/shop/t/64/assets/main-product.mind57d.js?v=115485231887063270841734504011" defer>
-            </script>
-
-            <div class="breadcrumbs-desktop hidden lg:block md:px-40 mt-[20px]">
-                <style data-shopify>
-                    .breadcrumb a {
-                        color: #131814;
-                        font-family: ibmMedium;
-                        font-size: 14px;
-                    }
-
-                    .breadcrumb a:hover {
-                        text-decoration: underline;
-                    }
-
-                    .breadcrumb span {
-                        color: #afb2b4;
-                        font-size: 14px;
-                        font-family: ibmMedium;
-                    }
-                </style>
-                <nav class="breadcrumb capitalize flex p-4 lg:p-0 gap-1 flex-wrap" role="navigation"
-                    aria-label="breadcrumbs">
-                    <a href="../index.html" title="Home">Home</a>
-                    <span aria-hidden="true">></span>
-                    <span>Product</span>
-                </nav>
+          <div class="flex flex-col gap-[2px] lg:gap-2 pt-2.5 pb-3.5 px-4 lg:px-0 lg:py-0 border-b-4 border-b-[#F6F6F6] lg:border-none product-information">
+            <div class="flex justify-between items-baseline">
+              <h1 class="text-[#51575C] lg:mt-3 text-sm lg:text-xl font-[ibmMedium]"> ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt </h1>
             </div>
 
-            <main class="flex flex-col md:grid md:grid-cols-10 md:gap-10 md:py-6 md:px-40">
-                <div id="product-image-carousel-wrapper" class="h-full w-full col-span-6 relative">
-
-
-
-                    <div id="image-container" class="w-full flex lg:hidden h-fit relative overflow-hidden ">
-
-                        <div class="container main-product-card-container">
-                            <div class="product-slider-container pdp-main-image product-image-6931091226679 relative  image-container flex gap-4 "
-                                style="max-width: 100vw;">
-
-
-                                <figure class="flex aspect-[3/4] cursor-pointer  product-figure">
-                                    <div href="product.php"
-                                        data-id="6931091226679"
-                                        data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ="
-                                        data-price="599"
-                                        data-href="/products/always-lonely-at-the-top-black-oversized-tshirt"
-                                        data-product_index="1" class=" w-full h-full">
-                                        <img srcset="//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=165 165w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=360 360w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533 533w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=720 720w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=940 940w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513 980w
-            " src="../cdn/shop/files/01_023d86.jpg?v=1730189513"
-                                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                            alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                            class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-0"
-                                            width="980" loading="lazy" height="1257" index="0" type="pdp-main-img">
-                                    </div>
-                                </figure>
-
-                                <figure class="flex aspect-[3/4] cursor-pointer  product-figure">
-                                    <div href="product.php"
-                                        data-id="6931091226679"
-                                        data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ="
-                                        data-price="599"
-                                        data-href="/products/always-lonely-at-the-top-black-oversized-tshirt"
-                                        data-product_index="2" class=" w-full h-full">
-                                        <img srcset="//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=165 165w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=360 360w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=533 533w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=720 720w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=940 940w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=1066 1066w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785 1080w
-            " src="../cdn/shop/files/20_2a940.jpg?v=1715012785"
-                                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                            alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                            class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-1"
-                                            width="1080" loading="lazy" height="1440" index="1" type="pdp-main-img">
-                                    </div>
-                                </figure>
-
-                                <figure class="flex aspect-[3/4] cursor-pointer  product-figure">
-                                    <div href="product.php"
-                                        data-id="6931091226679"
-                                        data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ="
-                                        data-price="599"
-                                        data-href="/products/always-lonely-at-the-top-black-oversized-tshirt"
-                                        data-product_index="3" class=" w-full h-full">
-                                        <img srcset="//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=165 165w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=360 360w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=533 533w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=720 720w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=940 940w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=1066 1066w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011 4027w
-            " src="../cdn/shop/files/ImportedPhoto.751811509.0762060432.jpg?v=1731157011"
-                                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                            alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                            class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-2"
-                                            width="4027" loading="lazy" height="2728" index="2" type="pdp-main-img">
-                                    </div>
-                                </figure>
-
-                                <figure class="flex aspect-[3/4] cursor-pointer  product-figure">
-                                    <div href="product.php"
-                                        data-id="6931091226679"
-                                        data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ="
-                                        data-price="599"
-                                        data-href="/products/always-lonely-at-the-top-black-oversized-tshirt"
-                                        data-product_index="4" class=" w-full h-full">
-                                        <img srcset="//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782 1200w
-            " src="../cdn/shop/files/01_010a5c.jpg?v=1715012782"
-                                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                            alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                            class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-3"
-                                            width="1200" loading="lazy" height="1600" index="3" type="pdp-main-img">
-                                    </div>
-                                </figure>
-
-                                <figure class="flex aspect-[3/4] cursor-pointer  product-figure">
-                                    <div href="product.php"
-                                        data-id="6931091226679"
-                                        data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ="
-                                        data-price="599"
-                                        data-href="/products/always-lonely-at-the-top-black-oversized-tshirt"
-                                        data-product_index="5" class=" w-full h-full">
-                                        <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w
-            " src="../cdn/shop/files/4740a5c.jpg?v=1715012782"
-                                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                            alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                            class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-4"
-                                            width="1200" loading="lazy" height="1600" index="4" type="pdp-main-img">
-                                    </div>
-                                </figure>
-                                <figure class="flex aspect-[3/4] cursor-pointer  product-figure">
-                                    <div href="product.php"
-                                        data-id="6931091226679"
-                                        data-name="QUxXQVlTIExPTkVMWSBBVCBUSEUgVE9QIEJsYWNrIE92ZXJzaXplZCBCYWNrIFB1ZmYgUHJpbnRlZCBUc2hpcnQ="
-                                        data-price="599"
-                                        data-href="/products/always-lonely-at-the-top-black-oversized-tshirt"
-                                        data-product_index="5" class=" w-full h-full">
-                                        <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w
-            " src="../cdn/shop/files/4740a5c.jpg?v=1715012782"
-                                            sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                            alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                            class="image-placeholder-bg h-full w-full product-main-image-class carousel-image-index-4"
-                                            width="1200" loading="lazy" height="1600" index="5" type="pdp-main-img">
-                                    </div>
-                                </figure>
-
-                            </div>
-                        </div>
-
-
-
-                        <div
-                            class="product-image-tag  product-image-tag  flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-main-image-tag  left-[1%]   !left-0 ">
-                            <span
-                                class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]  ">
-
-                                Oversized
-                            </span>
-                        </div>
-
-
-                    </div>
-
-                    <script>
-                        domReady(function() {
-                            $jq('.img_producto_container')
-                                // tile mouse actions
-                                .on('mouseover', function() {
-                                    $jq(this)
-                                        .children('.img_producto')
-                                        .css({
-                                            transform: 'scale(' + $jq(this).attr('data-scale') + ')'
-                                        });
-                                })
-                                .on('mouseout', function() {
-                                    $jq(this).children('.img_producto').css({
-                                        transform: 'scale(1)'
-                                    });
-                                })
-                                .on('mousemove', function(e) {
-                                    $jq(this)
-                                        .children('.img_producto')
-                                        .css({
-                                            'transform-origin': ((e.pageX - $jq(this).offset().left) / $jq(
-                                                    this).width()) * 100 +
-                                                '% ' +
-                                                ((e.pageY - $jq(this).offset().top) / $jq(this).height()) *
-                                                100 +
-                                                '%',
-                                        });
-                                });
-                        });
-                    </script>
-
-
-                    <style>
-                        .outer-grid {
-                            display: none;
-                        }
-
-                        .img_producto_container {
-                            position: relative;
-                            overflow: hidden;
-                            cursor: zoom-in;
-                        }
-
-                        .img_producto {
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            width: 100%;
-                            height: 100%;
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            transition: transform 0.5s ease-out;
-                        }
-
-                        @media screen and (min-width: 768px) {
-                            .outer-grid {
-                                display: grid;
-                                grid-template-columns: 50% 50%;
-                            }
-                        }
-                    </style>
-                    <div class="">
-                        <div class="outer-grid pdp-main-image gap-1">
-
-
-
-
-                            <div
-                                class="product-image-tag  product-image-tag  flex items-center absolute h-4 top-2 lg:top-4 p-[2px] lg:p-1 rounded-sm z-20 product-main-image-tag  left-[1%]   !left-0 ">
-                                <span
-                                    class="uppercase text-[7px] lg:text-sm font-[ibmSemiBold] text-center text-[#00AA68]  ">
-
-                                    Oversized
-                                </span>
-                            </div>
-
-
-
-
-                            <figure id="image-container"
-                                class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
-                                <img srcset="//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=165 165w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=360 360w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533 533w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=720 720w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=940 940w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513 980w
-            " src="../cdn/shop/files/01_023d86.jpg?v=1730189513"
-                                    sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                    alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                    class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto"
-                                    width="980" loading="eager" height="1257" index="0" type="pdp-main-img"
-                                    target="_self">
-
-                            </figure>
-
-
-
-
-                            <figure id="image-container"
-                                class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
-                                <img srcset="//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=165 165w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=360 360w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=533 533w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=720 720w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=940 940w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=1066 1066w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785 1080w
-            " src="../cdn/shop/files/20_2a940.jpg?v=1715012785"
-                                    sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                    alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                    class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto"
-                                    width="1080" loading="eager" height="1440" index="1" type="pdp-main-img"
-                                    target="_self">
-
-                            </figure>
-
-
-
-
-                            <figure id="image-container"
-                                class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
-                                <img srcset="//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=165 165w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=360 360w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=533 533w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=720 720w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=940 940w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=1066 1066w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011 4027w
-            " src="../cdn/shop/files/ImportedPhoto.751811509.0762060432.jpg?v=1731157011"
-                                    sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                    alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                    class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto"
-                                    width="4027" loading="eager" height="2728" index="2" type="pdp-main-img"
-                                    target="_self">
-
-                            </figure>
-
-
-
-
-                            <figure id="image-container"
-                                class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
-                                <img srcset="//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782 1200w
-            " src="../cdn/shop/files/01_010a5c.jpg?v=1715012782"
-                                    sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                    alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                    class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto"
-                                    width="1200" loading="eager" height="1600" index="3" type="pdp-main-img"
-                                    target="_self">
-
-                            </figure>
-
-
-
-
-                            <figure id="image-container"
-                                class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
-                                <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w
-            " src="../cdn/shop/files/4740a5c.jpg?v=1715012782"
-                                    sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                    alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                    class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto"
-                                    width="1200" loading="eager" height="1600" index="4" type="pdp-main-img"
-                                    target="_self">
-
-                            </figure>
-
-                            <figure id="image-container"
-                                class="img_producto_container aspect-[5/7] image-container relative" data-scale="1.6">
-                                <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w
-            " src="../cdn/shop/files/4740a5c.jpg?v=1715012782"
-                                    sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                    alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                    class="image-placeholder-bg h-full object-cover dslc-lightbox-image img_producto"
-                                    width="1200" loading="eager" height="1600" index="5" type="pdp-main-img"
-                                    target="_self">
-
-                            </figure>
-
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="expand-modal hidden flex-col justify-between ">
-                        <div class="expand-modal-bg absolute top-0 left-0 bg-[#fff] lg:bg-[#131814] h-full w-full">
-                        </div>
-                        <div class="expand-modal-close flex justify-end w-full z-[95] m-4 gap-3 mr-10">
-                            <button
-                                class="expand-modal-zoomout cursor-pointer z-[96] p-1 bg-white border-[0.38px] border-[#13181433] shadow-[0.75px_0.75px_0px_0px_#131814] rounded-md">
-                                <img src="cdn/shop/t/64/assets/icon-zoom-out262c.svg?v=22947114605117513751722237261"
-                                    width="16" height="16" alt="zoom in icon" loading="lazy">
-                            </button>
-                            <button
-                                class="expand-modal-zoomin cursor-pointer z-[96] p-1 bg-white border-[0.38px] border-[#13181433] shadow-[0.75px_0.75px_0px_0px_#131814] rounded-md">
-                                <img src="cdn/shop/t/64/assets/icon-zoom-in716a.svg?v=78164603656360222201722237261"
-                                    width="16" height="16" alt="zoom in icon" loading="lazy">
-                            </button>
-                            <button
-                                class="expand-modal-close-btn cursor-pointer z-[96] p-1 bg-white border-[0.38px] border-[#13181433] shadow-[0.75px_0.75px_0px_0px_#131814] rounded-md">
-                                <img src="cdn/shop/t/64/assets/icon-expand-close9ae8.svg?v=6910857965490087961722237261"
-                                    width="16" height="16" alt="expand close" loading="lazy">
-                            </button>
-                        </div>
-                        <div class="expand-modal-images flex-1 flex items-center w-full max-h-[50%]">
-                            <div class="pdp-expand-image pdp-slider-container w-full max-w-lg">
-
-
-
-                                <figure id="image-container" class="image-container">
-                                    <img srcset="//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=165 165w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=360 360w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533 533w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=720 720w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=940 940w,//veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513 980w
-            " src="../cdn/shop/files/01_023d86.jpg?v=1730189513"
-                                        sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg w-full h-full object-cover" width="980"
-                                        loading="lazy" height="1257" index="0" zoom-applied="false"
-                                        type="pdp-expand-img">
-                                </figure>
-
-
-                                <figure id="image-container" class="image-container">
-                                    <img srcset="//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=165 165w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=360 360w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=533 533w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=720 720w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=940 940w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785&width=1066 1066w,//veirdo.in/cdn/shop/files/20_2.jpg?v=1715012785 1080w
-            " src="../cdn/shop/files/20_2a940.jpg?v=1715012785"
-                                        sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg w-full h-full object-cover" width="1080"
-                                        loading="lazy" height="1440" index="1" zoom-applied="false"
-                                        type="pdp-expand-img">
-                                </figure>
-
-
-                                <figure id="image-container" class="image-container">
-                                    <img srcset="//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=165 165w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=360 360w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=533 533w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=720 720w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=940 940w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011&width=1066 1066w,//veirdo.in/cdn/shop/files/ImportedPhoto.751811509.076206.jpg?v=1731157011 4027w
-            " src="../cdn/shop/files/ImportedPhoto.751811509.0762060432.jpg?v=1731157011"
-                                        sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg w-full h-full object-cover" width="4027"
-                                        loading="lazy" height="2728" index="2" zoom-applied="false"
-                                        type="pdp-expand-img">
-                                </figure>
-
-
-                                <figure id="image-container" class="image-container">
-                                    <img srcset="//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/01_01.jpg?v=1715012782 1200w
-            " src="../cdn/shop/files/01_010a5c.jpg?v=1715012782"
-                                        sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg w-full h-full object-cover" width="1200"
-                                        loading="lazy" height="1600" index="3" zoom-applied="false"
-                                        type="pdp-expand-img">
-                                </figure>
-
-
-                                <figure id="image-container" class="image-container">
-                                    <img srcset="//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=165 165w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=360 360w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=533 533w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=720 720w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=940 940w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782&width=1066 1066w,//veirdo.in/cdn/shop/files/474.jpg?v=1715012782 1200w
-            " src="../cdn/shop/files/4740a5c.jpg?v=1715012782"
-                                        sizes="(min-width: 1200px) 267px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg w-full h-full object-cover" width="1200"
-                                        loading="lazy" height="1600" index="4" zoom-applied="false"
-                                        type="pdp-expand-img">
-                                </figure>
-
-                            </div>
-                        </div>
-                        <div
-                            class="thumbnail-wrapper my-2 mx-4 px-4 lg:mt-10 flex justify-start items-center w-full  md:w-[30%] md:pb-7 overflow-x-scroll hide-scrollbar">
-                            <div class="flex items-start gap-2 relative left-0">
-
-                                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
-                                    <img src="cdn/shop/files/01_02209d.jpg?v=1730189513&amp;width=75"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg h-full object-cover relative thumbnail-inactive"
-                                        width="75" loading="lazy" height="100" index="0">
-                                </figure>
-
-                                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
-                                    <img src="cdn/shop/files/20_2d30c.jpg?v=1715012785&amp;width=75"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg h-full object-cover relative thumbnail-inactive"
-                                        width="75" loading="lazy" height="100" index="1">
-                                </figure>
-
-                                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
-                                    <img src="cdn/shop/files/ImportedPhoto.751811509.0762069fcf.jpg?v=1731157011&amp;width=75"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg h-full object-cover relative thumbnail-inactive"
-                                        width="75" loading="lazy" height="100" index="2">
-                                </figure>
-
-                                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
-                                    <img src="cdn/shop/files/01_01c062.jpg?v=1715012782&amp;width=75"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg h-full object-cover relative thumbnail-inactive"
-                                        width="75" loading="lazy" height="100" index="3">
-                                </figure>
-
-                                <figure class="aspect-[3/4] w-[75px] h-[100px] pdp-expand-thumbnail cursor-pointer">
-                                    <img src="cdn/shop/files/474c062.jpg?v=1715012782&amp;width=75"
-                                        alt="ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt"
-                                        class="image-placeholder-bg h-full object-cover relative thumbnail-inactive"
-                                        width="75" loading="lazy" height="100" index="4">
-                                </figure>
-
-                            </div>
-                        </div>
-                    </div>
-
-
+            <div class="flex items-center justify-between lg:gap-2">
+              <section class="flex gap-2 items-baseline flex-wrap">
+                <span class="font-[ibmSemiBold] text-lg lg:text-2xl text-[#121212]">₹599</span>
+                <span class="text-sm lg:text-xl font-[ibmMedium] text-[#B0B1B5] line-through">₹1,199</span>
+                <span class="font-[ibmMedium] text-sm lg:text-base text-[#00B53A] uppercase">50% off</span>
+              </section>
+
+              <div id="ratings-badge-web" class="flex">
+                <button data-ga-view-custom data-ga-view-info-custok="PDP_Ratings_Badge_View" data-ga-view-payload-custom="5.0" class="ratings-badge flex gap-[2px] items-center">
+                  <img src="cdn/shop/t/64/assets/icon-star5226.svg?v=116753354371702194131706021711" loading="lazy" alt="rating icon" width="15" height="15">
+                  <div class="flex items-center gap-1 text-sm lg:text-base font-[ibmMedium] text-[#3A3E41]">
+                    <span>5.0</span>
+                    <span class="bg-[#C9CBCC] w-[1px] h-[7.5px]"></span>
+                    <span data-ga-view data-ga-view-info="PDP_Ratings_View" class="text-[#8A8E92]">5</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <div class="lg:hidden">
+              <span class="best-offer-callout hidden bg-[#E6FEF4B8] p-1 pr-2 rounded flex items-center gap-1 w-fit">
+                <img src="cdn/shop/t/64/assets/icon-offers46c8.gif?v=178628784726124120341723122736" width="26" height="26" alt="offers icon" loading="lazy" class="lg:w-7 lg:h-7">
+                <div class="text-[#131814] font-[ibmMedium] mb-1">
+                  Best price
+                  <span class="text-[#008450] font-[ibmBold]"> ₹366 </span> with offers
                 </div>
-                <div class="lg:hidden border-b-4 border-b-[#F6F6F6]">
-
-
-                    <div class="ga-timer   bg-[#EAF4FC] text-[#2063A1]  " data-ga-view-custom
-                        data-ga-view-info-custom="PDP_Timer_View">
-                        <div
-                            class="text-xs lg:text-sm flex flex-row gap-1 justify-center px-1 py-2 lg:py-1.5 lg:px-2  font-[ibmMedium]">
-                            <div class="uppercase">Sale ends in</div>
-                            <div>:</div>
-                            <div id="sales_countdown" class="sales_countdown font-[ibmSemiBold] flex flex-row gap-0.5">
-                                00h : 10m : 30s</div>
-                        </div>
-                    </div>
+                <div class="offers-down-btn lg:hidden w-3.5 h-3.5 rounded border-[0.22px] border-[#00000052] ml-2 flex items-center justify-center">
+                  <img src="cdn/shop/t/64/assets/icon-arrow-down36e6.svg?v=47546669650400989411723122726" width="10" height="10" alt="arrow down icon" loading="lazy">
                 </div>
+<<<<<<< HEAD
                 <div class="flex flex-col col-span-4">
                     <div class="hidden lg:block mb-1.5">
 
@@ -1889,28 +1422,30 @@
                         *Offer will be Auto applied at the checkout
                     </p>
 
+=======
+              </span>
+            </div>
+          </div>
+
+          <!-- offer section start -->
+          <div class="offer-section gap-3 py-[14px] px-4 lg:px-0 lg:pr-2 lg:pt-6 lg:pb-4 flex flex-col">
+            <h3 class="text-[#2D3033] font-[soraSemiBold] text-sm lg:text-base uppercase">Offers</h3>
+            <div class="buy-n-container w-full hide-scrollbar pb-4 overflow-x-scroll pr-1">
+              <div class="buy-n-wrapper available-offers flex gap-3">
+                <div data-ga-view-custom data-ga-view-info-custom="PDP_OFFER_SECTION" data-ga-view-payload-custom="{coupon_name: 'BUY 2 GET 1 FREE | REPUBLIC DAY SALE', position : '1'}" class="offer-card-bg-gradiant p-3 rounded-xl min-w-[80%] h-[initial] flex flex-col justify-between lg:min-w-[100%]">
+                  <div class="flex gap-2 pb-3 items-start">
+                    <img src="cdn/shop/t/64/assets/icon-offer6678.gif?v=154534563168981496241729072614" alt="offer icon" class="pt-[5px]" width="24" height="24" loading="lazy">
+>>>>>>> 9ec2292896b1efe8360099ca58e2e90bd37e056a
                     <div class="flex flex-col gap-1">
-                        <p class="text-xs text-[#51575C] font-[ibmSemiBold] lg:text-base">Terms & Conditions</p>
-                        <ol class="text-[10px] text-[#74797D] font-[ibmMedium] lg:text-xs !list-disc pl-4">
-
-
-                            <li>
-                                Products from
-                                <a href="collections/republic-day-sale-buy-2-get-1-free.html"
-                                    class="underline text-[#74797D]"
-                                    onclick="gaClickEvent('PDP_OFFER_COLLECTION_CLICK', { coupon_code: 'BUY 2 GET 1 FREE | REPUBLIC DAY SALE', collection_name: 'republic-day-sale-buy-2-get-1-free'});">
-                                    this catalogue
-                                </a>
-                                are eligible for an offer.
-                            </li>
-
-                            <li>Combinable with other offers</li>
-
-
-
-                            <li>Final price may change based on the items in your bag</li>
-                        </ol>
+                      <p class="text-[13px] text-[#131814] font-[ibmSemiBold] offer-text lg:text-sm"> Get it for as low as <span class="text-[#008450] font-[ibmBold] text-sm lg:text-base">FREE</span>
+                        <span class="text-[11px] lg:text-sm line-through text-[#4A4F54]">₹599</span>
+                      </p>
+                      <p class="text-[10px] lg:text-xs font-[ibmMedium] text-[#4A4F54] offer-text">
+                        <span class="text-[#131814] text-[11px] lg:text-xs font-[ibmSemiBold]">BUY 2 GET 1 FREE | REPUBLIC DAY SALE </span>
+                        Add any 3 products in your cart to avail the offer.
+                      </p>
                     </div>
+<<<<<<< HEAD
                 </div>
 
             </div>
@@ -1947,152 +1482,148 @@
         <?php include './new-arrival.php'; ?>
         <!----footer-->
         <?php include './inc/footer.php'; ?>
+=======
+                  </div>
+                  <div class="flex justify-between pt-3 border-dashed border-t-[1px] border-[#CCD0D7]">
+                    <div class="flex items-center gap-1">
+                      <span class="text-[12px] text-[#1A1E31] font-[ibmSemiBold] lg:text-sm">Offer will be auto-applied</span>
+                    </div>
+                    <button class="offer-view-detail font-[ibmMedium] text-[11px] text-[#4A4F54] underline lg:text-xs uppercase" data-discount_coupon="YnV5XzJfZ2V0XzFfZnJlZV98X3JlcHVibGljX2RheV9zYWxl" data-discount_type="bxgy" data-event-details="{coupon_name: 'BUY 2 GET 1 FREE | REPUBLIC DAY SALE', position : '1'}'">Offer T&C</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- offer section end -->
 
+          <!-- select sizes and wishlist and add to cart button start -->
+          <div class="grid-area-form">
+            <div data-ga-view data-ga-view-info="PDP_Size_View" class="flex flex-col gap-3 lg:gap-5 border-b-4 border-b-[#F6F6F6] lg:border-none py-[14px] px-4 lg:px-0 lg:py-6">
+              <div class="flex justify-between items-center size-options-container">
+                <span class="uppercase text-[#2D3033] text-sm lg:text-base font-[soraSemiBold]"> Select Size </span>
+                <div data-app="eastsideco_sizeGuides" data-shop="veirdo.myshopify.com" data-tags="B2G1,BLACK TSHIRT,BUY1GET1FREE,FLAT15,Freeshipping,NEW ARRIVAL,NEW COLLECTION,NEW100,Printed Half Sleeve Tshirt,UnisexCollection" data-metafields="" data-popup="link" data-trigger-text="Size Guide" class="size-guide"></div>
+              </div>
+              <fieldset class="flex flex-wrap gap-3 size-variant-parent">
+                <label data-variant-id="40581803999287" class="relative cursor-pointer size-select size-variant-label flex items-center justify-center p-[6.86px] lg:p-[8.29px] rounded-md border-[0.5px] border-[#8a8e92] bg-white min-w-[48px] max-h-[40px] mb-3">
+                  <input class="main-product-form-size-trigger hidden" type="radio" name="size" value="S" data-product-id="6931091226679" data-variant-id="40581803999287" data-variant-qty="134">
+                  <span class="size-label font-[ibmMedium] text-xs lg:text-base text-[#2d3033] uppercase">S</span>
+                </label>
 
-        <button id="BackToTop" class="back-to-top right-2 lg:right-[60px]">
-            <img src="cdn/shop/t/64/assets/icon-back-to-top3c55.svg?v=25966591052180162661706079523" width="40"
-                height="40" alt="back to top" loading="lazy">
-        </button>
+                <label data-variant-id="40581804032055" class="relative cursor-pointer size-select size-variant-label flex items-center justify-center p-[6.86px] lg:p-[8.29px] rounded-md border-[0.5px] border-[#8a8e92] bg-white min-w-[48px] max-h-[40px] mb-3">
+                  <input class="main-product-form-size-trigger hidden" type="radio" name="size" value="M" data-product-id="6931091226679" data-variant-id="40581804032055" data-variant-qty="81">
+                  <span class="size-label font-[ibmMedium] text-xs lg:text-base text-[#2d3033] uppercase">M</span>
+                </label>
 
+                <label data-variant-id="40581804064823" class="relative cursor-pointer size-select size-variant-label flex items-center justify-center p-[6.86px] lg:p-[8.29px] rounded-md border-[0.5px] border-[#8a8e92] bg-white min-w-[48px] max-h-[40px] mb-3">
+                  <input class="main-product-form-size-trigger hidden" type="radio" name="size" value="L" data-product-id="6931091226679" data-variant-id="40581804064823" data-variant-qty="86">
+                  <span class="size-label font-[ibmMedium] text-xs lg:text-base text-[#2d3033] uppercase">L</span>
+                </label>
 
-        <!-- TODO - remove the dependency of jquery for critical rendering -->
-        <script src="../cdn/shop/t/64/assets/hamburger-menu.min06f4.js?v=84340172155576691991733916671" defer></script>
-        <link rel="stylesheet" href="../cdn/shop/t/64/assets/predictive-search.min6c24.css?v=93769007446315028791707132699"
-            media="print" onload="this.media='all'">
+                <label data-variant-id="40581804097591" class="relative cursor-pointer size-select size-variant-label flex items-center justify-center p-[6.86px] lg:p-[8.29px] rounded-md border-[0.5px] border-[#8a8e92] bg-white min-w-[48px] max-h-[40px] mb-3">
+                  <input class="main-product-form-size-trigger hidden" type="radio" name="size" value="XL" data-product-id="6931091226679" data-variant-id="40581804097591" data-variant-qty="82">
+                  <span class="size-label font-[ibmMedium] text-xs lg:text-base text-[#2d3033] uppercase">XL</span>
+                </label>
 
-        <!-- Start of Judge.me Core -->
-        <link rel="dns-prefetch" href="https://cdn.judge.me/">
+                <label data-variant-id="40581804130359" class="relative cursor-pointer size-select size-variant-label flex items-center justify-center p-[6.86px] lg:p-[8.29px] rounded-md border-[0.5px] border-[#8a8e92] bg-white min-w-[48px] max-h-[40px] mb-3">
+                  <input class="main-product-form-size-trigger hidden" type="radio" name="size" value="XXL" data-product-id="6931091226679" data-variant-id="40581804130359" data-variant-qty="98">
+                  <span class="size-label font-[ibmMedium] text-xs lg:text-base text-[#2d3033] uppercase">XXL</span>
+                </label>
+              </fieldset>
+            </div>
 
+            <div class="product-add-buttons atc-container flex gap-3 fixed lg:static bg-white bottom-0 left-0 w-full z-[80] py-3 px-4 lg:p-0 lg:pb-6">
+              <div class="flits-wishlist-static-btn">
+                <button class="main-product-wishlist lg:flex gap-2 items-center justify-center px-6 py-3 rounded-lg border-[0.5px] border-[#74797D]">
+                  <span class="text-[#222527] text-sm font-[soraSemiBold]">WISHLIST</span>
+                  <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531" width="20" height="20" alt="wishlist icon" loading="lazy">
+                </button>
+              </div>
+              <button data-ga-view data-ga-view-info="PDP_ATC_View" data-total-size-variants="1" class="add-to-bag-submit-main-product-btn flex items-center justify-center enabled-submit-btn px-4 py-3 rounded-lg w-full lg:w-1/2">
+                <span class="add-to-bag-submit-main-product-btn-label capitalize font-[soraSemiBold] text-sm text-[#222527]">
+                  ADD TO CART
+                </span>
+              </button>
+            </div>
+          </div>
+          <!-- select sizes and wishlist and add to cart button end -->
 
-
-
-
-
-        <script data-cfasync='false' class='jdgm-script'>
-            ! function(e) {
-                window.jdgm = window.jdgm || {}, jdgm.CDN_HOST = "https://cdn.judge.me/",
-                    jdgm.docReady = function(d) {
-                        (e.attachEvent ? "complete" === e.readyState : "loading" !== e.readyState) ?
-                        setTimeout(d, 0): e.addEventListener("DOMContentLoaded", d)
-                    }, jdgm.loadCSS = function(d, t, o, s) {
-                        !o && jdgm.loadCSS.requestedUrls.indexOf(d) >= 0 || (jdgm.loadCSS.requestedUrls.push(d),
-                            (s = e.createElement("link")).rel = "stylesheet", s.class = "jdgm-stylesheet", s.media =
-                            "nope!",
-                            s.href = d, s.onload = function() {
-                                this.media = "all", t && setTimeout(t)
-                            }, e.body.appendChild(s))
-                    },
-                    jdgm.loadCSS.requestedUrls = [], jdgm.loadJS = function(e, d) {
-                        var t = new XMLHttpRequest;
-                        t.onreadystatechange = function() {
-                                4 === t.readyState && (Function(t.response)(), d && d(t.response))
-                            },
-                            t.open("GET.html", e), t.send()
-                    }, jdgm.docReady((function() {
-                        (window.jdgmLoadCSS || e.querySelectorAll(
-                            ".jdgm-widget, .jdgm-all-reviews-page").length > 0) && (jdgmSettings
-                            .widget_load_with_code_splitting ?
-                            parseFloat(jdgmSettings.widget_version) >= 3 ? jdgm.loadCSS(jdgm.CDN_HOST +
-                                "widget_v3/base.css") :
-                            jdgm.loadCSS(jdgm.CDN_HOST + "widget/base.css") : jdgm.loadCSS(jdgm.CDN_HOST +
-                                "shopify_v2.css"),
-                            jdgm.loadJS(jdgm.CDN_HOST + "loader.js"))
-                    }))
-            }(document);
-        </script>
-
-        <noscript>
-            <link rel="stylesheet" type="text/css" media="all" href="../../cdn.judge.me/shopify_v2.css">
-        </noscript>
-        <!-- End of Judge.me Core -->
-
-
-
-        <script>
-            window.shopUrl = '../index.php';
-            window.routes = {
-                cart_add_url: '/cart/add',
-                cart_change_url: '/cart/change',
-                cart_update_url: '/cart/update',
-                cart_url: '/cart',
-                predictive_search_url: '/search/suggest',
-            };
-        </script>
-        <script src="../cdn/shop/t/64/assets/predictive-search.mind3e4.js?v=107557671509637896911707900564" defer="defer">
-        </script>
-        <script>
-            const $jq = jQuery.noConflict();
-
-            /* Start - Image Lazy loading Logic */
-            const lazyImages = document.querySelectorAll('.lazy');
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
-                        const image = entry.target;
-                        image.src = image.dataset.src;
-                        image.addEventListener('load', () => {
-                            image.classList.add('loaded');
-                        });
-                        observer.unobserve(image);
-                    }
-                });
-            });
-            lazyImages.forEach((image) => {
-                observer.observe(image);
-            });
-            /* End - Image Lazy loading Logic */
-            function getTemplate() {
-                const temp = "product";
-                return temp;
-            }
-            const getDeviceType = (width) => {
-                return width >= 1024 ? "desktop" : width >= 768 ? "tablet" : "mobile";
-            };
-            const customer = {
-                name: '',
-                id: ``,
-                email: ``,
-                phone: ``
-            }
-            window.customer = customer;
-            window.brand = {
-                device: {
-                    deviceType: getDeviceType(document.body.clientWidth)
-                }
-            }
-            //loading lottie cdn only when there is lottie on page
-            document.addEventListener('DOMContentLoaded', function() {
-                setTimeout(function() {
-                    var script = document.createElement('script');
-                    script.defer = true;
-                    script.src =
-                        '../../cdn.shopify.com/s/files/1/0485/2534/4920/files/lottie-player.minc559.js?v=1712587202';
-                    document.head.appendChild(script);
-                }, 2000); // Delay of 2 seconds
-                let currentScrollRange = -1;
-                let lastPageUrl = '';
-                window.addEventListener('scroll', () => {
-                    const scrollDepth = Math.round((window.scrollY) / (document.querySelector('html.js')
-                        .offsetHeight - window.innerHeight) * 100);
-                    const scrollRange = Math.round((scrollDepth) / 25);
-                    if (lastPageUrl != window.location.href) {
-                        lastPageUrl = window.location.href;
-                        currentScrollRange = -1;
-                    }
-                    if (scrollRange != currentScrollRange) {
-                        currentScrollRange = scrollRange;
-                        gaScrollEvent(scrollRange * 25, window.location.href);
-                    }
-                })
-            });
-        </script>
-
+          <!-- Product Information start -->
+          <?php include("product-information.php") ?>
+          <!-- Product Information end -->
+        </div>
+      </main>
     </div>
-    <div id="shopify-block-AYzlOTmRyakFvcEJNN__10508887350528622030" class="shopify-block shopify-app-block">
+  </div>
 
-    </div>
-    </body>
+  <!----------------------------------------------------------------------------------------------------------------------->
+  <?php include("new-arrival.php") ?>
+  <!-- loader icon -->
+  <?php include("loader.php") ?>
+  <!-- loader icon -->
 
+  <!-- Toast Message start -->
+  <?php include("toast.php") ?>
+  <!-- Toast Message end -->
 
+  <!-- Footer start -->
+  <?php include("inc/footer.php") ?>
+  <!-- Footer end -->
+>>>>>>> 9ec2292896b1efe8360099ca58e2e90bd37e056a
+
+  <!-- Back to Top button start -->
+  <?php include("back-to-top.php") ?>
+  <!-- Back to Top button end -->
+
+  <?php include("inc/foot-link.php") ?>
+
+  <!-- code for zoom image on hover -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const $jq = jQuery.noConflict();
+
+      /* Start - Image Lazy loading Logic */
+      const lazyImages = document.querySelectorAll('.lazy');
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const image = entry.target;
+            image.src = image.dataset.src;
+            image.addEventListener('load', () => {
+              image.classList.add('loaded');
+            });
+            observer.unobserve(image);
+          }
+        });
+      });
+      lazyImages.forEach((image) => {
+        observer.observe(image);
+      });
+
+      const getDeviceType = (width) => {
+        return width >= 1024 ? "desktop" : width >= 768 ? "tablet" : "mobile";
+      };
+
+      /* Image Hover Effect */
+      domReady(function() {
+        $jq('.img_producto_container')
+          .on('mouseover', function() {
+            $jq(this).children('.img_producto').css({
+              transform: 'scale(' + $jq(this).attr('data-scale') + ')'
+            });
+          })
+          .on('mouseout', function() {
+            $jq(this).children('.img_producto').css({
+              transform: 'scale(1)'
+            });
+          })
+          .on('mousemove', function(e) {
+            $jq(this).children('.img_producto').css({
+              'transform-origin': ((e.pageX - $jq(this).offset().left) / $jq(this).width()) * 100 + '% ' + ((e.pageY - $jq(this).offset().top) / $jq(this).height()) * 100 + '%',
+            });
+          });
+      });
+    });
+  </script>
+</body>
 
 </html>
