@@ -1,5 +1,5 @@
 <header id="header"
-    class="relative  flex  z-[999] p-3 border border-neutral-50 lg:py-3 lg:px-10 drawer-menu lg:gap-12 justify-between items-center">
+    class="relative  flex  z-[999] p-3 border border-neutral-50 lg:py-3 lg:px-10 drawer-menu lg:gap-12 justify-between items-center" style="height: 100px;">
     <div class="flex gap-9">
         <div class="flex gap-4 self-center">
 
@@ -9,9 +9,9 @@
                     class="menu-drawer-container flex justify-center items-center">
                     <summary class="header__icon header__icon--menu initial header__icon--summary link focus-inset"
                         aria-label="Menu">
-                        <span onclick="gaClickEvent('Hamburger_Click',{section_name:'Hamburger'})">
+                        <span>
                             <img src="cdn/shop/t/64/assets/icon-hamburger-menu9580.svg?v=160362663456842056121706099193"
-                                loading="lazy" width=20 height=20>
+                                loading="lazy" width=60 height=60>
                         </span>
                     </summary>
 
@@ -560,18 +560,17 @@
                 </details>
             </header-drawer>
             <a href="index.php"
-                onclick="gaClickEvent('collection_TopNav_Click',{section_name:'Header',element_name:'Logo_Click',redirect_url:'/'})"
                 class="header__heading-link link link--text focus-inset">
                 <div class="header__heading-logo-wrapper">
 
                     <img src="cdn/shop/logo/logo-ff.png" alt="brand-logo"
-                        width="120" height="28.085106382978726" loading="eager"
+                        width="250" height="250" loading="eager"
                         class="header__heading-logo motion-reduce">
                 </div>
             </a>
         </div>
         <!--Main menu -->
-        <li onmouseenter='gaClickEvent("Megamenu_Click",{section_name:"Header",rank:"5",element_name:"TOP WEAR"})'
+        <!-- <li onmouseenter='gaClickEvent("Megamenu_Click",{section_name:"Header",rank:"5",element_name:"TOP WEAR"})'
             class="desktop-menu flex w-max cursor-pointer items-center hover:border-b-2 hover:border-red-500 dropdown uppercase py-8 text-neutral-700 text-xs font-[soraSemiBold]">
             SPORT WEAR
             <div data-ga-view-custom data-ga-view-info-custom="Megamenu_View"
@@ -661,7 +660,7 @@
                 </div>
             </div>
 
-        </li>
+        </li> -->
 
 
 
