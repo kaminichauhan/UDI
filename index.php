@@ -56,7 +56,7 @@
     <!-- video section end -->
 
     <!-- New Arrivals Start -->
-    <?php include("inc/newdata.php") ?>
+    <?php // include("inc/newdata.php") ?>
     <!-- New Arrivals End -->
 
     <!-- About us Start -->
