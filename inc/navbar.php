@@ -884,7 +884,7 @@
         </div>
 
         <div class="block lg:hidden mobile-search-icon m-auto">
-            <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="50" height="50" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M7.74988 2.5H6.99988V3.25H6.25H5.5V4H4.75V4.75H4V5.5H4.75H5.5H6.25V4.75H6.99988H7H7.74988V4V3.25V2.5ZM7.75 2.5H8.5H9.25H10H10.75H11.5V3.25H12.2499V4V4.75H11.5H11.4999H10.75V4H10H9.25H8.5H7.75V3.25V2.5ZM12.25 3.25H13V4H13.75V4.75H14.5V5.5H13.75H13H12.25V4.75V4V3.25ZM13.75 5.50001H14.5H15.25V6.25V6.25001V7H15.9999V7.75V8.5V9.25V10V10.75V11.5H15.25V12.25V13H14.5V13.75H15.25V14.5H16V15.25H16.75V16H17.5V16.75V17.5H16.75H16V16.75H15.25V16H14.5V15.25H13.75V14.5H13V15.25H12.25V14.5V13.75V13H13V12.25H13.75V11.5V10.75H14.5V10V9.25V8.5V7.75H13.75V7V6.25001H13V5.50001H13.75ZM11.5 13.75H12.2499V14.5V15.25H11.5V16H10.75H10H9.25H8.5H7.75V15.25V14.5H8.5H9.25H10H10.75V13.75H11.4999H11.5ZM4.75 5.50001H4H3.25V6.25V6.25001V7H2.5V7.75V8.5V9.25V10V10.75V11.5H3.25V12.25V13H4V13.75H4.75V14.5H5.5V15.25H6.25H6.99988V16H7.74988V15.25V14.5V13.75H7H6.99988H6.25V13H5.5V12.25H4.75V11.5V10.75H4V10V9.25V8.5V7.75H4.75V7V6.25001H5.5V5.50001H4.75Z"
                     fill="#131814" />
@@ -954,7 +954,7 @@
             <div class=" block lg:hidden">
 
                 <a href="javascript:void(0);" onclick="kpHandleLogin('/account');">
-                    <svg width="21" height="21" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    <svg width="50" height="50" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"
                         id="kpicon2">
                         <path
                             d="M22.9129 12.935L13.7571 23.0474C13.5348 23.2929 13.1284 23.1084 13.1669 22.7794L14.0816 14.9731H10.6991C10.4034 14.9731 10.2484 14.6219 10.4478 14.4035L20.3133 3.59739C20.5589 3.32834 20.9984 3.58134 20.8891 3.92887L18.2354 12.3664H22.6607C22.9557 12.3664 23.1109 12.7163 22.9129 12.935Z"
@@ -967,13 +967,13 @@
 
             </div>
 
-            <div class="whishlist-wrapper h-[24px] w-[24px]">
+            <div class="whishlist-wrapper h-[50px] w-[50px]">
 
 
 
                 <a href="javascript:void(0);" onclick="handleKpAndShopifyLogin('/pages/wishlist')">
-                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531" width="24"
-                        height="24" loading="lazy">
+                    <img src="cdn/shop/t/64/assets/icon-wishlistaa8e.svg?v=113452544103302444001706007531" width="50"
+                        height="50" loading="lazy">
                 </a>
 
             </div>
@@ -983,7 +983,7 @@
             <!-- Cart Icon start -->
             <div class="relative cart-icon flex justify-center">
                 <button class="cart-icon-bubble" onclick="headerGaEvents('Cart_Click','header','/cart') ">
-                    <img src="svg/cart.svg" alt="">
+                    <img src="svg/cart.svg" alt="" height="50" width="50">
                 </button>
             </div>
             <!-- Cart Icon end -->
@@ -1008,7 +1008,7 @@
                         </div>
                         <button class="icon-close-drawer ">
                             <img src="cdn/shop/t/64/assets/icon-close15dc.svg?v=42907484647275626011705057419"
-                                loading="lazy" width="24" height="24" alt="cart close icon">
+                                loading="lazy" width="50" height="50" alt="cart close icon">
                         </button>
                     </div>
                 </div>
